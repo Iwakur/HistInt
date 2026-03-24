@@ -1,0 +1,38 @@
+{
+  "id": "scene_01",
+  "act": "Acte I",
+  "title": "Le village en flammes",
+  "subtitle": "La nuit du départ",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "fire",
+  "image": "assets/images/scene_01.jpg",
+  "music": "assets/audio/scene_01.mp3",
+  "text": [
+    "Tu es Kael, jeune forgeron du village de Thornwick.",
+    "Cette nuit, des silhouettes encapuchonnées ont mis le feu aux granges.",
+    "Les cris résonnent dans les ruelles. La fumée pique les yeux.",
+    "Tu aperçois ta voisine Mira coincée sous une poutre effondrée, à quelques mètres de toi.",
+    "Les flammes se rapprochent d'elle."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Courir sauver Mira sous la poutre",
+      "target": "scene_02a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Chercher d'abord une arme dans la forge",
+      "target": "scene_02b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Alerter les autres villageois en criant",
+      "target": "scene_02c"
+    }
+  ]
+}

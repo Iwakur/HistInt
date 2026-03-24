@@ -342,7 +342,7 @@
                   Explore defense, architecture, and life inside stone fortresses.
                 </p>
               </div>
-              <span class="open-badge">Open</span>
+              <span class="open-badge"><a href="page.php">Open</a></span>
             </div>
           </a>
 
