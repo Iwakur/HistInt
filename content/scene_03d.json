@@ -1,0 +1,39 @@
+{
+  "id": "scene_03d",
+  "act": "Acte II",
+  "title": "Le village en flammes",
+  "subtitle": "LA FORÊT DE VALDREMOR",
+  "location": "Dans la forêt de Valdremor",
+  "character": "Kael",
+  "mood": "fire",
+  "image": "assets/images/scene_01.jpg",
+  "music": "assets/audio/scene_01.mp3",
+  "text": [
+    "Tu fuis seul dans la forêt de Valdremor. La culpabilité de laisser",
+    "Mira derrière te ronge à chaque pas. Après une heure de course",
+    "dans le noir, tu tombes sur un campement abandonné en urgence.",
+    "Un feu encore chaud, un repas renversé, une sacoche oubliée.",
+    "Quelqu'un était là il y a moins d'une heure."
+
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Courir sauver Mira sous la poutre",
+      "target": "scene_04j"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Chercher d'abord une arme dans la forge",
+      "target": "scene_04k"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Alerter les autres villageois en criant",
+      "target": "scene_04l"
+    }
+  ]
+}
