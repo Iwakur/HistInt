@@ -1,0 +1,38 @@
+{
+  "id": "scene_03f",
+  "act": "Acte II",
+  "title": "Regard contre regard",
+  "subtitle": "LA FORÊT DE VALDREMOR",
+  "location": "forêt de Valdremor",
+  "character": "Kael",
+  "mood": "fire",
+  "image": "assets/images/scene_01.jpg",
+  "music": "assets/audio/scene_01.mp3",
+  "text": [
+    "Tu ne bouges pas. L'encapuchonné s'avance lentement, sans hâte.",
+    "À trois mètres de toi, il s'arrête. Sa voix sort de sous le",
+    "capuchon, basse et froide comme de la pierre mouillée :",
+    "'Tu as le regard de ton père, enfant. Il nous doit quelque chose.",
+    "Et maintenant... toi aussi.'"
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Demander ce que son père leur doit",
+      "target": "scene_04p"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Attaquer brusquement et tenter de fuir",
+      "target": "scene_04q"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Demander qui est 'nous'",
+      "target": "scene_04r"
+    }
+  ]
+}

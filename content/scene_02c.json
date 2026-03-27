@@ -1,0 +1,34 @@
+{
+    "id": "scene_02c",
+    "act": "Acte I",
+    "title": "L'alerte inutile",
+    "subtitle": "La nuit du départ",
+    "location": "Thornwick",
+    "character": "Kael",
+    "mood": "fire",
+    "image": "assets/images/scene_02c.jpg",
+    "music": "assets/audio/scene_02c.mp3",
+    "text": [
+        "Tu cries dans les rues mais la panique est totale. Les gens fuient dans tous les sens. Personne ne t'écoute. Soudain, l'un des encapuchonnés se retourne vers toi. Son visage est caché mais ses yeux brillent d'un rouge sang anormal, comme des braises. Il pointe lentement son doigt dans ta direction."
+    ],
+    "choices": [
+        {
+            "id": "choice_a",
+            "label": "A",
+            "text": "Courir te cacher dans les ruelles sombres",
+            "target": "scene_03e"
+        },
+        {
+            "id": "choice_b",
+            "label": "B",
+            "text": "Faire face à l'encapuchonné sans bouger",
+            "target": "scene_03f"
+        },
+        {
+            "id": "choice_c",
+            "label": "C",
+            "text": "Hurler aux villageois de fuir vers la forêt",
+            "target": "scene_03i"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "scene_03a",
+  "act": "Acte II",
+  "title": "La fuite dans la nuit",
+  "subtitle": "LA FORÊT DE VALDREMOR",
+  "location": "forêt de Valdremor",
+  "character": "Kael",
+  "mood": "fire",
+  "image": "assets/images/scene_01.jpg",
+  "music": "assets/audio/scene_01.mp3",
+  "text": [
+    "Tu portes Mira sur ton dos à travers la forêt de Valdremor.",
+    "Les arbres anciens semblent vous observer — des formes dans",
+    "l'obscurité, des craquements sans vent. Une lumière froide et",
+    "bleue pulse au loin entre les troncs. Mira reprend légèrement",
+    "conscience et murmure d'une voix faible : 'Ne suis jamais",
+    "la lumière bleue. Jamais.'"
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Ignorer la lumière et avancer vers l'est",
+      "target": "scene_04a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "S'approcher de la lumière bleue malgré l'avertissement",
+      "target": "scene_04b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Grimper dans un arbre avec Mira pour observer",
+      "target": "scene_04c"
+    }
+  ]
+}
