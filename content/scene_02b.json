@@ -1,0 +1,38 @@
+{
+  "id": "scene_02b",
+  "act": "Acte I",
+  "title": "La forge du père",
+  "subtitle": "La nuit du départ",
+  "location": "Forge",
+  "character": "Kael",
+  "mood": "fire",
+  "image": "assets/images/scene_01.jpg",
+  "music": "assets/audio/scene_01.mp3",
+  "text": [
+    "Tu entres dans ta forge en flammes. Les poutres craquent au-dessus.",
+    "Parmi les outils, tu trouves une épée courte que ton père n'a",
+    "jamais voulu te montrer — forgée dans un métal noir inconnu,",
+    "froid au toucher malgré le feu partout. En la saisissant, un",
+    "frisson glacial remonte le long de ton bras jusqu'à la nuque."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Retourner sauver Mira avec l'épée",
+      "target": "scene_03c"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Fuir seul par la forêt avec l'épée",
+      "target": "scene_03d"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Rester et fouiller la forge plus en profondeur",
+      "target": "scene_02h"
+    }
+  ]
+}
