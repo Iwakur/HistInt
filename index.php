@@ -1,125 +1,151 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About the Medieval World</title>
-  <link rel="stylesheet" href="index_style.css" />
-</head>
-<body>
-  <div class="container">
-    <nav class="navbar">
-      <div class="nav-left">
-        <a href="#" class="nav-link">Home</a>
-      </div>
+<?php
+require __DIR__ . '/includes/functions.php';
 
-      <div class="nav-center">
-        <h1 class="nav-title">About the Medieval World</h1>
-      </div>
+// Start session for potential future features
+session_start();
 
-      <div class="nav-right">
-        <a href="#" class="nav-link">Profile</a>
-        <div class="profile-circle"></div>
-      </div>
-    </nav>
+$pageTitle = 'Les Ombres de Valdremor';
+$showNavigation = false; // Landing page doesn't need navigation
+$sceneJavaScript = false; // No scene-specific JS needed
+require __DIR__ . '/includes/header.php';
+?>
 
-    <main>
-      <section class="main-card">
-        <div class="main-grid">
-          <div class="hero-box">
-            <p class="hero-label">History • Society • Power</p>
-            <h2 class="hero-title">Step into a world of stone, faith, war, and survival.</h2>
-          </div>
-
-          <div class="info-column">
-            <div class="info-box">
-              <p class="section-label">Overview</p>
-              <p class="info-text">
-                This project introduces the Middle Ages through people, castles, religion,
-                warfare, and everyday life. Use the topics on the right to begin exploring
-                the world behind the myths.
-              </p>
-            </div>
-
-            <div class="small-grid">
-              <div class="small-box">
-                <p class="section-label">Period</p>
-                <strong>5th-15th c.</strong>
-              </div>
-              <div class="small-box">
-                <p class="section-label">Focus</p>
-                <strong>Story + History</strong>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <aside class="side-card">
-        <div class="side-header">
-          <div>
-            <p class="section-label">Choose a Path</p>
-            <h3 class="side-title">Start Exploring</h3>
-          </div>
-          <span class="topic-count">4 Topics</span>
+<main class="landing-page">
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="fog fog-1"></div>
+            <div class="fog fog-2"></div>
+            <div class="embers" id="embers"></div>
+            <div class="stars"></div>
         </div>
 
-        <div class="topics">
-          <a href="#" class="topic-card">
-            <div class="topic-top">
-              <div>
-                <h4 class="topic-name">Castles</h4>
-                <p class="topic-desc">
-                  Explore defense, architecture, and life inside stone fortresses.
-                </p>
-              </div>
-              <span class="open-badge"><a href="page.php">Open</a></span>
-            </div>
-          </a>
+        <div class="hero-content">
+            <p class="eyebrow">Chronique interactive médiévale</p>
+            <h1 class="hero-title">Les Ombres de Valdremor</h1>
+            <p class="hero-subtitle">
+                Une histoire de feu, de cendres, de secrets anciens et d’héritage caché.
+            </p>
 
-          <a href="#" class="topic-card">
-            <div class="topic-top">
-              <div>
-                <h4 class="topic-name">Knights</h4>
-                <p class="topic-desc">
-                  See how warriors trained, fought, and lived under feudal duty.
-                </p>
-              </div>
-              <span class="open-badge">Open</span>
+            <div class="hero-actions">
+                <a href="scene.php?scene=scene_01&start=new" class="btn btn-primary">Commencer l’histoire</a>
+                <a href="#about-story" class="btn btn-secondary">Découvrir l’univers</a>
             </div>
-          </a>
-
-          <a href="#" class="topic-card">
-            <div class="topic-top">
-              <div>
-                <h4 class="topic-name">Daily Life</h4>
-                <p class="topic-desc">
-                  Follow peasants, merchants, and towns through ordinary medieval life.
-                </p>
-              </div>
-              <span class="open-badge">Open</span>
-            </div>
-          </a>
-
-          <a href="#" class="topic-card">
-            <div class="topic-top">
-              <div>
-                <h4 class="topic-name">The Church</h4>
-                <p class="topic-desc">
-                  Understand belief, ritual, power, and influence across the medieval world.
-                </p>
-              </div>
-              <span class="open-badge">Open</span>
-            </div>
-          </a>
         </div>
-      </aside>
-    </main>
-  </div>
-</body>
-</html>
+    </section>
 
+    <section class="intro-card reveal">
+        <div class="intro-grid">
+            <div class="intro-text">
+                <p class="section-kicker">Bienvenue</p>
+                <h2>Entre dans un monde de cendres, de forêts et de vérités interdites</h2>
+                <p>
+                    Thornwick brûle. Kael, jeune forgeron, voit sa vie basculer en une seule nuit.
+                    Entre la disparition des repères, les silhouettes encapuchonnées et les secrets
+                    laissés par son père, chaque choix ouvre un nouveau chemin.
+                </p>
+                <p>
+                    Ce projet est une histoire interactive textuelle : tu avances scène par scène,
+                    explores plusieurs branches du récit, et découvres progressivement ce qui relie
+                    le village en flammes, la forêt de Valdremor, la Tour de Sel et la Confrérie des Cendres.
+                </p>
+            </div>
 
+            <div class="intro-quote">
+                <div class="quote-box">
+                    <p>
+                        “Le feu détruit les maisons. Les secrets détruisent les lignées.”
+                    </p>
+                    <span>Chronique de Valdremor</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </body>
-</html>
+    <section id="about-story" class="about-grid">
+        <article class="info-card reveal">
+            <p class="section-kicker">À propos</p>
+            <h3>Qu’est-ce que c’est ?</h3>
+            <p>
+                <strong>Les Ombres de Valdremor</strong> est une fiction interactive médiévale-fantastique.
+                Le joueur suit Kael et prend des décisions qui modifient la direction du récit.
+            </p>
+            <p>
+                L’histoire repose sur une structure à embranchements avec plusieurs actes, de nombreuses
+                scènes et plusieurs fins possibles.
+            </p>
+        </article>
+
+        <article class="info-card reveal">
+            <p class="section-kicker">Structure</p>
+            <h3>Comment ça fonctionne ?</h3>
+            <ul class="feature-list">
+                <li>Une scène = un moment narratif important</li>
+                <li>Trois choix principaux à la plupart des étapes</li>
+                <li>Des chemins différents selon les décisions prises</li>
+                <li>Une progression du mystère jusqu’aux révélations finales</li>
+            </ul>
+        </article>
+
+        <article class="info-card reveal">
+            <p class="section-kicker">Atmosphère</p>
+            <h3>Quel ton ?</h3>
+            <p>
+                L’univers mélange feu, ruines, magie froide, forêts anciennes, confréries secrètes
+                et héritage familial tragique. Le ton est sombre, mystérieux et centré sur le récit.
+            </p>
+        </article>
+    </section>
+
+    <section class="timeline-section reveal">
+        <p class="section-kicker">Parcours</p>
+        <h2>Le voyage de Kael</h2>
+
+        <div class="timeline">
+            <div class="timeline-step">
+                <span class="timeline-number">I</span>
+                <div>
+                    <h4>La nuit du départ</h4>
+                    <p>Le village brûle, Mira est en danger, et tout commence dans le chaos.</p>
+                </div>
+            </div>
+
+            <div class="timeline-step">
+                <span class="timeline-number">II</span>
+                <div>
+                    <h4>La forêt de Valdremor</h4>
+                    <p>La fuite ouvre la porte à des signes étranges, des visions et des avertissements.</p>
+                </div>
+            </div>
+
+            <div class="timeline-step">
+                <span class="timeline-number">III</span>
+                <div>
+                    <h4>Les révélations</h4>
+                    <p>Le passé de Daren, la Confrérie et le Sceau commencent à émerger.</p>
+                </div>
+            </div>
+
+            <div class="timeline-step">
+                <span class="timeline-number">IV</span>
+                <div>
+                    <h4>Le choix final</h4>
+                    <p>Le destin de Kael, de Mira et de Valdremor dépend des décisions prises.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section reveal">
+        <div class="cta-box">
+            <p class="section-kicker">Commencer</p>
+            <h2>La première nuit t’attend</h2>
+            <p>
+                Entre dans Thornwick au moment où les flammes dévorent les granges, où les cris
+                résonnent dans les ruelles, et où ton premier choix décidera déjà du ton de ton destin.
+            </p>
+            <a href="scene.php?scene=scene_01&start=new" class="btn btn-primary btn-large">Entrer dans l’histoire</a>
+        </div>
+    </section>
+</main>
+
+<?php require __DIR__ . '/includes/footer.php'; ?>
