@@ -1,0 +1,34 @@
+{
+  "id": "scene_04a",
+  "act": "Acte III",
+  "title": "Le relais de chasse",
+  "subtitle": "LES RÉVÉLATIONS",
+  "location": "relais de chasse abandonné",
+  "character": "Kael",
+  "mood": "fire",
+  "image": "assets/images/scene_04a.jpg",
+  "music": "assets/audio/scene_04a.mp3",
+  "text": [
+    "Vous atteignez un vieux relais de chasse abandonné. À l'intérieur, une carte griffonnée à la hâte et un message écrit à la va-vite : « Si tu lis ceci, Thornwick est tombé. Va à la Tour de Sel. Demande la Veuve Grise. Elle sait tout ce que je ne pouvais pas te dire. » La signature : ton père, Daren."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Partir immédiatement vers la Tour de Sel",
+      "target": "scene_05a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Attendre l'aube pour soigner Mira et reprendre des forces",
+      "target": "scene_05b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Étudier la carte pour trouver un chemin plus sûr",
+      "target": "scene_05c"
+    }
+  ]
+}

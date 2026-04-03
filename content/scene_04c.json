@@ -1,0 +1,38 @@
+{
+  "id": "scene_04c",
+  "act": "Acte III",
+  "title": "La vue du dessus",
+  "subtitle": "LES RÉVÉLATIONS",
+  "location": "relais de chasse abandonné",
+  "character": "Kael",
+  "mood": "fire",
+  "image": "assets/images/scene_04c.jpg",
+  "music": "assets/audio/scene_04c.mp3",
+  "text": [
+    "Du haut de l'arbre, tu vois la lumière bleue de près. Une douzaine
+d'encapuchonnés marchent en formation rituelle autour d'une flamme
+froide. Ils portent quelque chose dans une cage de métal noir :
+une créature ailée, minuscule, qui ressemble à un être humain
+de la taille d'une main. Elle te regarde, droit dans les yeux."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Descendre et tenter de libérer la créature",
+      "target": "scene_05g"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Continuer à observer et suivre les encapuchonnés",
+      "target": "scene_05h"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Redescendre discrètement et fuir avec Mira",
+      "target": "scene_05b"
+    }
+  ]
+}
