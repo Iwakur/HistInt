@@ -6,8 +6,8 @@
   "location": "Dans la forêt de Valdremor",
   "character": "Kael",
   "mood": "fire",
-  "image": "assets/images/scene_01.jpg",
-  "music": "assets/audio/scene_01.mp3",
+  "image": "assets/images/scene_03d.jpg",
+  "music": "assets/audio/scene_03d.mp3",
   "text": [
     "Tu fuis seul dans la forêt de Valdremor. La culpabilité de laisser",
     "Mira derrière te ronge à chaque pas. Après une heure de course",
@@ -20,19 +20,19 @@
     {
       "id": "choice_a",
       "label": "A",
-      "text": "Courir sauver Mira sous la poutre",
+      "text": "Fouiller la sacoche à la recherche d'indices",
       "target": "scene_04j"
     },
     {
       "id": "choice_b",
       "label": "B",
-      "text": "Chercher d'abord une arme dans la forge",
+      "text": "Éteindre le feu et te cacher dans les buissons",
       "target": "scene_04k"
     },
     {
       "id": "choice_c",
       "label": "C",
-      "text": "Alerter les autres villageois en criant",
+      "text": "Crier doucement pour voir si quelqu'un est encore là",
       "target": "scene_04l"
     }
   ]

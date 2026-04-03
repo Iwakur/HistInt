@@ -1,0 +1,40 @@
+{
+  "id": "scene_03d",
+  "act": "Acte II",
+  "title": "L'exode du village",
+  "subtitle": "LA FORÊT DE VALDREMOR",
+  "location": "Dans la forêt de Valdremor",
+  "character": "Kael",
+  "mood": "fire",
+  "image": "assets/images/scene_03i.jpg",
+  "music": "assets/audio/scene_03i.mp3",
+  "text": [
+    "Tes cris font effet. Une vingtaine de villageois te suivent vers",
+    "la forêt. Mais dans la bousculade, tu perds de vue Mira. Les",
+    "encapuchonnés s'attaquent aux retardataires. Tu arrives à l'orée",
+    "de la forêt avec un groupe, haletant. Quelqu'un dans le groupe",
+    "t'attrape le bras — une femme en cape grise que tu ne reconnais",
+    "pas. 'Toi. Viens avec moi. Maintenant.'"
+
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "La suivre sans poser de questions ",
+      "target": "scene_04v"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Refuser et retourner chercher Mira ",
+      "target": "scene_03a"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Demander qui elle est avant de décider ",
+      "target": "scene_04r"
+    }
+  ]
+}
