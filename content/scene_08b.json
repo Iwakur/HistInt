@@ -1,0 +1,36 @@
+{
+  "id": "scene_08b",
+  "act": "Acte VI",
+  "title": "La quête de la liberté",
+  "subtitle": "La Tour de Sel",
+  "location": "Tour de Sel",
+  "character": "Kael",
+  "mood": "quest",
+  "image": "assets/images/scene_08b.jpg",
+  "music": "assets/audio/scene_08b.mp3",
+  "text": [
+    "La Veuve Grise soupire longuement. \"Extraire le Sceau de force te tuera à coup sûr.",
+    "Mais il existe peut-être une autre voie. Un rituel oublié, consigné dans le Grimoire des Premiers Mages.",
+    "Ce livre se trouve dans la Crypte de Valdremor, sous la forêt. Chaque expédition envoyée là-bas n'est jamais revenue.\""
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Partir pour la Crypte de Valdremor malgré le danger",
+      "target": "scene_09_fin_crypte"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Changer d'avis et accepter de porter le Sceau",
+      "target": "scene_08a"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Demander à la Veuve Grise de t'accompagner dans la Crypte",
+      "target": "scene_09_fin_crypte"
+    }
+  ]
+}

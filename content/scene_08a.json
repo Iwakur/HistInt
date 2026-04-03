@@ -1,0 +1,36 @@
+{
+  "id": "scene_08a",
+  "act": "Acte VI",
+  "title": "L'Héritier du Sceau",
+  "subtitle": "La Tour de Sel",
+  "location": "Tour de Sel",
+  "character": "Kael",
+  "mood": "power",
+  "image": "assets/images/scene_08a.jpg",
+  "music": "assets/audio/scene_08a.mp3",
+  "text": [
+    "Tu t'entraînes pendant trois jours dans la Tour de Sel. Le pouvoir en toi prend forme — une flamme froide que tu apprends à projeter dans tes mains, dans ton regard, dans ta voix.",
+    "La quatrième nuit, les sentinelles sonnent l'alarme. La Confrérie encercle la Tour. Tu sors dans la cour.",
+    "Leur chef retire son masque. C'est ton oncle Varn — le frère de ton père."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "L'affronter en combat direct",
+      "target": "scene_09_fin_combat"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Tenter de le convaincre de trahir la Confrérie comme ton père",
+      "target": "scene_09_fin_pardon"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Utiliser le Sceau pour fermer la porte — même si ça peut te tuer",
+      "target": "scene_09_fin_sacrifice"
+    }
+  ]
+}

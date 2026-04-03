@@ -1,0 +1,36 @@
+{
+  "id": "scene_06a",
+  "act": "Acte V",
+  "title": "La Veuve Grise",
+  "subtitle": "La Tour de Sel",
+  "location": "Tour de Sel",
+  "character": "Kael",
+  "mood": "meeting",
+  "image": "assets/images/scene_06a.jpg",
+  "music": "assets/audio/scene_06a.mp3",
+  "text": [
+    "Les gardes abaissent le pont-levis en entendant ce nom. Vous traversez des couloirs humides où le sel cristallise sur les pierres.",
+    "Dans une grande salle haute, une vieille femme aux cheveux blancs comme neige est assise sur un trône de pierre simple.",
+    "Elle vous regarde arriver et dit avant même que tu ouvres la bouche : \"Je vous attendais. Le fils de Daren... enfin.\""
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Demander ce qu'elle sait sur ton père",
+      "target": "scene_07a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Demander qui est la Confrérie des Cendres",
+      "target": "scene_07b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Poser le médaillon sur la table sans rien dire",
+      "target": "scene_07c"
+    }
+  ]
+}

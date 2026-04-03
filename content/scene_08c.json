@@ -1,0 +1,36 @@
+{
+  "id": "scene_08c",
+  "act": "Acte VI",
+  "title": "Une troisième voie",
+  "subtitle": "La Tour de Sel",
+  "location": "Tour de Sel",
+  "character": "Kael",
+  "mood": "choice",
+  "image": "assets/images/scene_08c.jpg",
+  "music": "assets/audio/scene_08c.mp3",
+  "text": [
+    "La Veuve Grise hésite longuement avant de répondre. \"Il existe une possibilité.",
+    "Si le chef de la Confrérie renonce volontairement à son but, le rituel d'ouverture de la porte est brisé pour toujours.",
+    "Mais pour qu'il renonce... il faudrait lui montrer quelque chose qu'il aime plus que son but.\" Elle te regarde dans les yeux. \"Et ce quelque chose, c'est toi.\""
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Accepter d'aller parler à ton oncle seul",
+      "target": "scene_09_fin_pardon"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Refuser — affronter la Confrérie de face",
+      "target": "scene_08a"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Demander comment ton oncle te connaît",
+      "target": "scene_07g"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "scene_05a",
+  "act": "Acte IV",
+  "title": "Devant la Tour",
+  "subtitle": "La Tour de Sel",
+  "location": "Tour de Sel",
+  "character": "Kael",
+  "mood": "dawn",
+  "image": "assets/images/scene_05a.jpg",
+  "music": "assets/audio/scene_05a.mp3",
+  "text": [
+    "Vous marchez toute la nuit. À l'aube, une structure imposante se dresse à l'horizon : la Tour de Sel, ses murs blancs tachés d'ocre et de rouille.",
+    "Le pont-levis est levé. Deux gardes en armure noire vous observent depuis les remparts sans bouger.",
+    "Ils attendent que vous fassiez le premier geste."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Crier le nom de la Veuve Grise pour qu'ils vous laissent passer",
+      "target": "scene_06a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Contourner la Tour pour chercher une entrée secrète",
+      "target": "scene_06b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Montrer le médaillon ou l'épée noire pour s'identifier",
+      "target": "scene_06c"
+    }
+  ]
+}

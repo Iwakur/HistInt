@@ -1,0 +1,36 @@
+{
+  "id": "scene_07a",
+  "act": "Acte VI",
+  "title": "Le secret de Daren",
+  "subtitle": "La Tour de Sel",
+  "location": "Tour de Sel",
+  "character": "Kael",
+  "mood": "secret",
+  "image": "assets/images/scene_07a.jpg",
+  "music": "assets/audio/scene_07a.mp3",
+  "text": [
+    "La Veuve Grise se lève lentement et pose une main froide sur ton épaule.",
+    "\"Ton père Daren était le gardien du Sceau de Valdremor. Un artefact capable de fermer ou d'ouvrir la porte entre notre monde et le Royaume des Ombres.",
+    "Quand la Confrérie a voulu s'en emparer, il a fait l'unique chose qui pouvait le protéger. Il l'a caché... en toi. Dans ton sang. Tu es le Sceau.\""
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Accepter ton rôle et apprendre à maîtriser le pouvoir",
+      "target": "scene_08a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Refuser — exiger qu'on t'extrait le Sceau du corps",
+      "target": "scene_08b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Demander s'il existe un moyen d'arrêter la Confrérie sans toi",
+      "target": "scene_08c"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "scene_05b",
+  "act": "Acte IV",
+  "title": "L'aube et les soins",
+  "subtitle": "Le relais",
+  "location": "Le relais",
+  "character": "Kael",
+  "mood": "dawn",
+  "image": "assets/images/scene_05b.jpg",
+  "music": "assets/audio/scene_05b.mp3",
+  "text": [
+    "Tu soignes la jambe de Mira avec des herbes du relais.",
+    "Elle reprend des forces lentement. \"Tu aurais pu me laisser là-bas,\" dit-elle en te regardant. \"Pourquoi ne l'as-tu pas fait ?\"",
+    "Dans la lumière de l'aube qui entre par la fenêtre brisée, tu remarques quelque chose sur son poignet gauche : un tatouage de corbeau, petit et précis."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Lui parler du message de ton père et de la Veuve Grise",
+      "target": "scene_06d"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Lui montrer le médaillon et demander ce qu'elle sait",
+      "target": "scene_06e"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Lui demander directement ce que signifie ce tatouage",
+      "target": "scene_06f"
+    }
+  ]
+}
