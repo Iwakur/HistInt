@@ -1,0 +1,34 @@
+{
+  "id": "scene_03h",
+  "act": "Acte II",
+  "title": "Les secrets de la forge",
+  "subtitle": "LA FORÊT DE VALDREMOR",
+  "location": "forêt de Valdremor",
+  "character": "Kael",
+  "mood": "fire",
+  "image": "assets/images/scene_03h.jpg",
+  "music": "assets/audio/scene_03h.mp3",
+  "text": [
+    "Sous l'enclume, tu trouves une trappe. En dessous : une petite pièce secrète contenant des documents, une carte et une lettre cachetée à ton nom. La forge s'effondre au-dessus — tu as dix secondes pour prendre ce que tu peux."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Prendre uniquement la lettre et fuir",
+      "target": "scene_04s"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Prendre la carte et les documents",
+      "target": "scene_04t"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Tout prendre, au risque de rester plus longtemps",
+      "target": "scene_04u"
+    }
+  ]
+}

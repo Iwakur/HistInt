@@ -23,3 +23,4 @@ HistInt/
 │       └── script.js
 
 ─────────────────────────────────────────────────────────────────────────────────────────
+add description about the change of french book about the main hero

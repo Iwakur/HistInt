@@ -1,6 +1,14 @@
 <?php
 declare(strict_types=1);
 
+// Start session for tracking scene history
+session_start();
+
+// Clear history if starting a new story
+if (isset($_GET['start']) && $_GET['start'] === 'new') {
+    $_SESSION['scene_history'] = [];
+}
+
 $sceneId = $_GET['scene'] ?? 'scene_01';
 $sceneId = basename($sceneId);
 
@@ -23,6 +31,36 @@ function e(string $value): string {
     return htmlspecialchars($value, ENT_QUOTES, 'UTF-8');
 }
 
+// Initialize scene history if not exists
+if (!isset($_SESSION['scene_history'])) {
+    $_SESSION['scene_history'] = [];
+}
+
+// Handle navigation: if coming from a back action, trim history to current position
+if (isset($_GET['from_back']) && $_GET['from_back'] === '1') {
+    // Remove scenes after current position if going back
+    $currentIndex = array_search($sceneId, $_SESSION['scene_history']);
+    if ($currentIndex !== false) {
+        $_SESSION['scene_history'] = array_slice($_SESSION['scene_history'], 0, $currentIndex + 1);
+    }
+} else {
+    // Add current scene to history (avoid duplicates at the end)
+    $lastScene = end($_SESSION['scene_history']);
+    if ($lastScene !== $sceneId) {
+        $_SESSION['scene_history'][] = $sceneId;
+    }
+}
+
+// Get previous scene for back button
+$previousScene = null;
+$historyCount = count($_SESSION['scene_history']);
+if ($historyCount > 1) {
+    $currentIndex = array_search($sceneId, $_SESSION['scene_history']);
+    if ($currentIndex > 0) {
+        $previousScene = $_SESSION['scene_history'][$currentIndex - 1];
+    }
+}
+
 $title = $data['title'] ?? 'Untitled Scene';
 $subtitle = $data['subtitle'] ?? '';
 $act = $data['act'] ?? '';
@@ -32,33 +70,13 @@ $image = $data['image'] ?? '';
 $music = $data['music'] ?? '';
 $textBlocks = $data['text'] ?? [];
 $choices = $data['choices'] ?? [];
+
+$pageTitle = $title . ' | Les Ombres de Valdremor';
+$showNavigation = true;
+$sceneJavaScript = true;
+
+require __DIR__ . '/includes/header.php';
 ?>
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= e($title) ?> | Les Ombres de Valdremor</title>
-    <link rel="stylesheet" href="page_style.css">
-</head>
-<body>
-    <div class="embers" id="embers"></div>
-
-    <main class="page">
-        <header class="topbar">
-            <div class="nav-left">
-                <a class="nav-link" href="index.php">Return</a>
-            </div>
-
-            <div class="nav-center">
-                <a class="nav-title" href="about.php">About</a>
-            </div>
-
-            <div class="nav-right">
-                <a class="nav-link" href="profile.php">Profile</a>
-                <div class="profile-dot" aria-hidden="true"></div>
-            </div>
-        </header>
 
         <section class="main-layout">
             <article class="panel">
@@ -132,40 +150,4 @@ $choices = $data['choices'] ?? [];
         </section>
     </main>
 
-    <script>
-        const emberContainer = document.getElementById('embers');
-        const emberCount = 24;
-
-        for (let i = 0; i < emberCount; i++) {
-            const ember = document.createElement('span');
-            ember.className = 'ember';
-            ember.style.left = Math.random() * 100 + 'vw';
-            ember.style.animationDuration = (7 + Math.random() * 8) + 's';
-            ember.style.animationDelay = (Math.random() * 6) + 's';
-            ember.style.opacity = (0.22 + Math.random() * 0.5).toFixed(2);
-            ember.style.transform = `scale(${0.7 + Math.random() * 0.9})`;
-            emberContainer.appendChild(ember);
-        }
-
-        const imageBox = document.querySelector('.scene-image-box img');
-        if (imageBox) {
-            imageBox.addEventListener('mousemove', (event) => {
-                const rect = imageBox.getBoundingClientRect();
-                const x = (event.clientX - rect.left) / rect.width;
-                const y = (event.clientY - rect.top) / rect.height;
-
-                const rotateY = (x - 0.5) * 4;
-                const rotateX = (0.5 - y) * 4;
-
-                imageBox.style.transform = `scale(1.02) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
-                imageBox.style.transition = 'transform 0.12s ease';
-            });
-
-            imageBox.addEventListener('mouseleave', () => {
-                imageBox.style.transform = 'scale(1) rotateX(0deg) rotateY(0deg)';
-                imageBox.style.transition = 'transform 0.25s ease';
-            });
-        }
-    </script>
-</body>
-</html>
+<?php require __DIR__ . '/includes/footer.php'; ?>
