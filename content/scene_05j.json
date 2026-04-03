@@ -1,0 +1,36 @@
+{
+  "id": "scene_05j",
+  "act": "Acte IV",
+  "title": "La poursuite",
+  "subtitle": "Thornwick",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "chase",
+  "image": "assets/images/scene_05j.jpg",
+  "music": "assets/audio/scene_05j.mp3",
+  "text": [
+    "Tu cours derrière l'encapuchonné dans les ruelles en feu. Il est rapide mais il trébuche sur un seuil effondré — juste assez pour que tu l'attrapes par le capuchon.",
+    "Il tombe. Son masque glisse. Tu t'attendais à n'importe quoi. Pas à ça : un visage ordinaire. Un homme d'une cinquantaine d'années, effrayé, les larmes aux joues.",
+    "\"Ne me tue pas. Je t'en supplie. Ils ont ma fille.\""
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Le laisser partir et reprendre ta route",
+      "target": "scene_05a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Lui demander qui a sa fille et ce qu'il sait",
+      "target": "scene_04r"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "L'emmener avec toi comme guide",
+      "target": "scene_05b"
+    }
+  ]
+}

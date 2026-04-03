@@ -1,0 +1,19 @@
+{
+  "id": "scene_09_fin_sacrifice",
+  "act": "Acte VII",
+  "title": "Le prix du Sceau",
+  "subtitle": "Sacrifice",
+  "location": "Tour de Sel",
+  "character": "Kael",
+  "mood": "sacrifice",
+  "image": "assets/images/scene_09_fin_sacrifice.jpg",
+  "music": "assets/audio/scene_09_fin_sacrifice.mp3",
+  "text": [
+    "Tu lèves les deux mains face à la Confrérie entière. Tu n'attends pas. Tu n'hésites pas.",
+    "Le Sceau en toi s'éveille complètement pour la première fois — une douleur absolue, blanche, totale.",
+    "Une lumière aveuglante consume la cour. La porte entre les mondes se referme avec un grondement que l'on entend depuis trois villages.",
+    "La Confrérie s'effondre, privée de son but ultime. Tu tombes. Mira te retient avant que tu touches le sol. Tu ouvres les yeux. Tu n'es plus qu'un homme. Un homme libre.",
+    "─ FIN : Tu perds tous tes pouvoirs. La Confrérie est anéantie. Tu peux vivre normalement. Tu rentres un jour à Thornwick et tu reconstruis ta forge."
+  ],
+  "choices": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "scene_09_fin_combat",
+  "act": "Acte VII",
+  "title": "Le sang de la trahison",
+  "subtitle": "Victoire",
+  "location": "Tour de Sel",
+  "character": "Kael",
+  "mood": "victory",
+  "image": "assets/images/scene_09_fin_combat.jpg",
+  "music": "assets/audio/scene_09_fin_combat.mp3",
+  "text": [
+    "Le combat est brutal. Varn est rapide, expérimenté, implacable. Mais le Sceau en toi pulse de plus en plus fort à chaque blessure.",
+    "Au moment décisif, la flamme froide explose de ta lame et désarme ton oncle d'un seul coup. Son épée vole dans les airs. Son masque tombe.",
+    "Ses yeux — les mêmes yeux gris que ceux de ton père — se remplissent de larmes. Il s'agenouille lentement. La Confrérie, sans chef, se disperse dans la nuit.",
+    "Thornwick sera un jour reconstruit. Mais tu ne seras jamais plus un simple forgeron.",
+    "─ FIN : Tu deviens le gardien officiel du Sceau. Varn est emprisonné. La Confrérie est décapitée — mais des membres survivent encore quelque part dans les ombres."
+  ],
+  "choices": []
+}

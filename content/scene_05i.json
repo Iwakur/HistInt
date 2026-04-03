@@ -1,0 +1,36 @@
+{
+  "id": "scene_05i",
+  "act": "Acte IV",
+  "title": "L'épée et Mira",
+  "subtitle": "Thornwick",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "revelation",
+  "image": "assets/images/scene_05i.jpg",
+  "music": "assets/audio/scene_05i.mp3",
+  "text": [
+    "Tu ramasses la lame courbe et coures jusqu'à l'endroit où tu as laissé Mira.",
+    "Elle est là, adossée contre un mur, consciente. Quand elle voit l'épée noire dans ta main gauche et la lame courbe dans ta droite, ses yeux s'écarquillent.",
+    "\"L'Épée de Cendres,\" souffle-t-elle. \"Elle existe vraiment. Ton père avait raison.\" Elle essaie de se lever."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "L'aider à se lever et partir vers la forêt",
+      "target": "scene_03a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Lui demander ce qu'elle sait de l'Épée de Cendres",
+      "target": "scene_05k"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Lui dire qu'on parlera en chemin et l'emporter",
+      "target": "scene_05a"
+    }
+  ]
+}

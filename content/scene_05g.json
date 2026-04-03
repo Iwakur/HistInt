@@ -1,0 +1,36 @@
+{
+  "id": "scene_05g",
+  "act": "Acte IV",
+  "title": "La créature libérée",
+  "subtitle": "La forêt de Valdremor",
+  "location": "Forêt de Valdremor",
+  "character": "Kael",
+  "mood": "mystery",
+  "image": "assets/images/scene_05g.jpg",
+  "music": "assets/audio/scene_05g.mp3",
+  "text": [
+    "Tu te faufiles entre les arbres jusqu'à la cage de métal. Les encapuchonnés sont absorbés par leur rituel — dos tournés.",
+    "Le verrou est simple. Tu l'ouvres. La créature ailée sort sans un bruit et se pose sur ton épaule comme un oiseau apprivoisé.",
+    "Elle te murmure quelque chose — pas en mots, mais en images : une tour blanche, une vieille femme, une porte dans la roche."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Suivre les images mentales vers la Tour de Sel",
+      "target": "scene_05a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Demander à la créature ce qu'elle sait",
+      "target": "scene_04r"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Fuir avec elle avant que les encapuchonnés s'en aperçoivent",
+      "target": "scene_05e"
+    }
+  ]
+}

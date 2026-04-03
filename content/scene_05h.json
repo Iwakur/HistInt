@@ -1,0 +1,36 @@
+{
+  "id": "scene_05h",
+  "act": "Acte IV",
+  "title": "Suivre la Confrérie",
+  "subtitle": "La forêt de Valdremor",
+  "location": "Forêt de Valdremor",
+  "character": "Kael",
+  "mood": "stealth",
+  "image": "assets/images/scene_05h.jpg",
+  "music": "assets/audio/scene_05h.mp3",
+  "text": [
+    "Tu descends silencieusement de l'arbre et tu suis la procession à distance, de tronc en tronc.",
+    "Après une heure de marche, les encapuchonnés arrivent devant une porte de pierre encastrée dans une falaise — invisible depuis un chemin normal.",
+    "L'un d'eux pose la main dessus. La porte s'ouvre vers l'intérieur. Ils entrent tous. La porte se referme."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Approcher et examiner la porte de près",
+      "target": "scene_05f"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Mémoriser l'endroit et partir vers la Tour de Sel",
+      "target": "scene_05a"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Attendre que quelqu'un ressorte",
+      "target": "scene_05e"
+    }
+  ]
+}

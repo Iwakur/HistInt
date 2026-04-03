@@ -1,0 +1,19 @@
+{
+  "id": "scene_09_fin_pardon",
+  "act": "Acte VII",
+  "title": "La fracture de la Confrérie",
+  "subtitle": "Ambiguë",
+  "location": "Tour de Sel",
+  "character": "Kael",
+  "mood": "ambiguous",
+  "image": "assets/images/scene_09_fin_pardon.jpg",
+  "music": "assets/audio/scene_09_fin_pardon.mp3",
+  "text": [
+    "Tu parles. Debout dans la cour de la Tour de Sel, face à l'armée de la Confrérie, tu révèles tout ce que tu as appris sur ton père — comment il les a trahis non par lâcheté mais par amour.",
+    "Comment il a tout sacrifié. Varn t'écoute, immobile. Un silence de plomb. Puis il dit à voix basse : \"Retraitez.\"",
+    "La moitié de ses hommes obéit. L'autre se retourne contre lui. Le chaos s'ensuit. Tu survis. Varn disparaît dans la nuit — ni ennemi ni allié.",
+    "Une fissure profonde s'est ouverte au cœur de la Confrérie.",
+    "─ FIN : La Confrérie est affaiblie et divisée, mais pas détruite. Varn est quelque part dans les ombres. La menace n'est pas terminée. L'histoire, elle, continue."
+  ],
+  "choices": []
+}

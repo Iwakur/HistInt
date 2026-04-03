@@ -1,0 +1,36 @@
+{
+  "id": "scene_05f",
+  "act": "Acte IV",
+  "title": "Le pouvoir du médaillon",
+  "subtitle": "La nuit de Thornwick",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "power",
+  "image": "assets/images/scene_05f.jpg",
+  "music": "assets/audio/scene_05f.mp3",
+  "text": [
+    "Tu tiens le médaillon à bout de bras. Le symbole gravé dans l'obsidienne s'illumine d'un bleu froid.",
+    "L'encapuchonné, ou la créature, ou la nuit elle-même — peu importe — s'immobilise.",
+    "Une voix résonne dans ta tête, ni masculine ni féminine : \"Gardien. La porte attend. Va à la Tour. Maintenant.\" Puis le silence. Le médaillon est froid à nouveau. Inerte."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Obéir à la voix et partir vers la Tour de Sel",
+      "target": "scene_05a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Rester sur place, abasourdi",
+      "target": "scene_05b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Tenter de réactiver le médaillon",
+      "target": "scene_04b"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "scene_05k",
+  "act": "Acte IV",
+  "title": "L'épée révélée",
+  "subtitle": "Thornwick",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "revelation",
+  "image": "assets/images/scene_05k.jpg",
+  "music": "assets/audio/scene_05k.mp3",
+  "text": [
+    "Tu examines l'épée noire dans la lumière des flammes mourantes. Le métal ne réfléchit rien — ni feu, ni ciel.",
+    "Il absorbe tout. Et sur la lame, visible maintenant que tu regardes vraiment, une inscription en lettres minuscules gravées dans l'acier : \"Pour Kael. Quand tout brûlera sauf toi.\"",
+    "La signature : Daren. Ton père t'a fabriqué cette épée. Il savait."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Partir avec l'épée vers la Tour de Sel",
+      "target": "scene_05a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Retrouver Mira et lui montrer l'inscription",
+      "target": "scene_05i"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Rester là, immobile, le temps de comprendre ce que ça signifie",
+      "target": "scene_05b"
+    }
+  ]
+}

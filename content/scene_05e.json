@@ -1,0 +1,36 @@
+{
+  "id": "scene_05e",
+  "act": "Acte IV",
+  "title": "La fuite dans les bois",
+  "subtitle": "La forêt de Valdremor",
+  "location": "Forêt de Valdremor",
+  "character": "Kael",
+  "mood": "escape",
+  "image": "assets/images/scene_05e.jpg",
+  "music": "assets/audio/scene_05e.mp3",
+  "text": [
+    "Tu cours. Seul, sans destination claire, juste l'instinct de mettre de la distance entre toi et Thornwick.",
+    "Au bout d'une heure, épuisé, tu t'effondres au pied d'un chêne géant.",
+    "L'aube commence à pointer à travers les feuilles. Dans le silence revenu, tu réalises que tu n'as qu'une chose sur toi — peu importe ce que c'est — et qu'une seule route s'offre encore : aller de l'avant."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Reprendre ta marche vers l'est",
+      "target": "scene_05a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Chercher un cours d'eau pour te repérer",
+      "target": "scene_04a"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Attendre là jusqu'au lever complet du soleil",
+      "target": "scene_05b"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "scene_09_fin_crypte",
+  "act": "Acte VII",
+  "title": "Le Grimoire des Premiers Mages",
+  "subtitle": "Inattendue",
+  "location": "Crypte de Valdremor",
+  "character": "Kael",
+  "mood": "unexpected",
+  "image": "assets/images/scene_09_fin_crypte.jpg",
+  "music": "assets/audio/scene_09_fin_crypte.mp3",
+  "text": [
+    "Tu descends dans la Crypte de Valdremor. Des couloirs qui bougent, des pièges anciens, des créatures faites d'ombre pure.",
+    "Au cœur de la crypte, après des heures d'errance, le Grimoire flotte au-dessus d'un autel de pierre noire.",
+    "En le touchant des deux mains, la vérité finale t'envahit comme de l'eau glacée : le Sceau ne peut pas être extrait par la force. Mais il peut être transmis — volontairement — à quelqu'un qui y consent pleinement.",
+    "Tu penses à Mira. Et quand tu remontes à la surface, elle est là. Elle dit simplement : \"Je sais. Et j'accepte.\"",
+    "─ FIN : Le Sceau passe en Mira. Tu es libre. Elle devient la nouvelle gardienne, plus puissante et préparée que toi. Ensemble, vous faites face à ce qu'il reste de la Confrérie."
+  ],
+  "choices": []
+}
