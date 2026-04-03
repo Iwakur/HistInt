@@ -1,0 +1,36 @@
+{
+  "id": "scene_04f",
+  "act": "Acte III",
+  "title": "L'attente des encapuchonnés",
+  "subtitle": "Thornwick",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "tension",
+  "image": "assets/images/scene_04f.jpg",
+  "music": "assets/audio/scene_04f.mp3",
+  "text": [
+    "Tu restes dans la maison qui se consume lentement, adossé au mur du fond, le médaillon chaud entre tes doigts.",
+    "Deux minutes passent. Puis trois. Une silhouette encapuchonnée franchit le seuil en ruines, s'arrête au milieu de la pièce et renifle l'air comme un animal.",
+    "Elle ne te voit pas encore. Le médaillon dans ta main est glacé."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Rester parfaitement immobile et observer",
+      "target": "scene_05f"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Jeter le médaillon loin pour créer une diversion et fuir",
+      "target": "scene_05e"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Bondir sur l'encapuchonné par surprise",
+      "target": "scene_05k"
+    }
+  ]
+}

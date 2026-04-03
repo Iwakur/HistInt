@@ -1,0 +1,36 @@
+{
+  "id": "scene_04h",
+  "act": "Acte III",
+  "title": "L'intimidation",
+  "subtitle": "Thornwick",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "standoff",
+  "image": "assets/images/scene_04h.jpg",
+  "music": "assets/audio/scene_04h.mp3",
+  "text": [
+    "Tu brandir l'épée noire à deux mains, les bras tendus.",
+    "L'encapuchonné s'arrête. Son regard vide glisse sur la lame, s'y attarde.",
+    "Un silence de plusieurs secondes s'installe. Puis il dit d'une voix neutre, presque déçue : \"Tu ne sais pas ce que tu tiens.\" Il fait un pas en avant. Un seul. Lent."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Reculer et frapper quand même",
+      "target": "scene_04g"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Tenir la position et répéter l'avertissement",
+      "target": "scene_05k"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Baisser l'épée et demander ce qu'il veut",
+      "target": "scene_04r"
+    }
+  ]
+}

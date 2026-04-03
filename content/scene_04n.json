@@ -1,0 +1,36 @@
+{
+  "id": "scene_04n",
+  "act": "Acte III",
+  "title": "L'affrontement dans la ruelle",
+  "subtitle": "Thornwick",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "confrontation",
+  "image": "assets/images/scene_04n.jpg",
+  "music": "assets/audio/scene_04n.mp3",
+  "text": [
+    "Tu fais volte-face. L'encapuchonné est à deux mètres. Ses yeux rouges ne cillent pas.",
+    "Tu n'as pas d'arme — juste tes poings et l'adrénaline. Il lève une main et dit : \"Ne fais pas ça.\"",
+    "Mais dans sa voix, pour la première fois, quelque chose qui ressemble à de la prudence. Comme s'il avait peur de toi. Pas de toi, précisément. De ce que tu portes en toi."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Attaquer quand même de toutes tes forces",
+      "target": "scene_04q"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Lui demander pourquoi il a peur",
+      "target": "scene_04r"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Reculer d'un pas et lui laisser parler",
+      "target": "scene_04p"
+    }
+  ]
+}

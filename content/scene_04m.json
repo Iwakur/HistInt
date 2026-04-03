@@ -1,0 +1,36 @@
+{
+  "id": "scene_04m",
+  "act": "Acte III",
+  "title": "Le fond du puits",
+  "subtitle": "Thornwick",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "underground",
+  "image": "assets/images/scene_04m.jpg",
+  "music": "assets/audio/scene_04m.mp3",
+  "text": [
+    "Tu descends à la corde, les pieds dans le vide, jusqu'à toucher une dalle de pierre sèche — le puits est à sec.",
+    "Mais il n'est pas vide. Une galerie s'ouvre dans le flanc, à peine assez large pour ramper. Des torches éteintes y sont fixées.",
+    "Quelqu'un utilisait ce passage régulièrement. L'encapuchonné au-dessus ne descend pas. Tu entends juste sa voix résonner dans le puits : \"Je t'attendrai à la sortie, enfant.\""
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Ramper dans la galerie",
+      "target": "scene_05a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Remonter et affronter la créature",
+      "target": "scene_04n"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Rester au fond du puits et attendre qu'elle parte",
+      "target": "scene_05e"
+    }
+  ]
+}

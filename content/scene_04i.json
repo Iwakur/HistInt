@@ -1,0 +1,36 @@
+{
+  "id": "scene_04i",
+  "act": "Acte III",
+  "title": "L'esquive vers Mira",
+  "subtitle": "Thornwick",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "relief",
+  "image": "assets/images/scene_04i.jpg",
+  "music": "assets/audio/scene_04i.mp3",
+  "text": [
+    "Tu plonges sur le côté au moment où la lame courbe siffle à l'endroit où ta tête se trouvait.",
+    "Tu roules sur les pavés brûlants, te relèves et cours. L'encapuchonné ne te suit pas — il reste là, debout dans la rue en feu, comme s'il avait accompli sa mission.",
+    "Tu trouves Mira à l'angle de la rue des tanneurs, debout, pâle. \"Je t'ai attendu,\" dit-elle. \"J'ai cru que tu ne viendrais plus.\""
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Partir immédiatement avec elle vers la forêt",
+      "target": "scene_03a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Lui demander si elle peut marcher",
+      "target": "scene_05b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Lui parler du médaillon et lui montrer l'épée",
+      "target": "scene_05k"
+    }
+  ]
+}

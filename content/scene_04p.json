@@ -1,0 +1,36 @@
+{
+  "id": "scene_04p",
+  "act": "Acte III",
+  "title": "La dette du père",
+  "subtitle": "Thornwick",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "revelation",
+  "image": "assets/images/scene_04p.jpg",
+  "music": "assets/audio/scene_04p.mp3",
+  "text": [
+    "\"De quoi s'agit-il ?\" dis-tu d'une voix qui ne tremble pas autant que tu le voudrais.",
+    "L'encapuchonné incline légèrement la tête. \"Ton père Daren a pris quelque chose qui appartenait à la Confrérie. Il a prétendu le détruire. Il ne l'a pas détruit. Il te l'a donné.",
+    "Et maintenant vous lui ressemblez tous les deux — des voleurs qui croient bien faire.\" Il étend une main ouverte vers toi. \"Rends-le-nous. Et tu vivras.\""
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Demander de quoi il parle exactement",
+      "target": "scene_04r"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Refuser et courir",
+      "target": "scene_04q"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Faire semblant d'accepter pour gagner du temps",
+      "target": "scene_05f"
+    }
+  ]
+}

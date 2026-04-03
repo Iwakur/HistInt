@@ -1,0 +1,36 @@
+{
+  "id": "scene_04l",
+  "act": "Acte III",
+  "title": "La voix dans la forêt",
+  "subtitle": "Forêt de Valdremor",
+  "location": "Forêt de Valdremor",
+  "character": "Kael",
+  "mood": "mystery",
+  "image": "assets/images/scene_04l.jpg",
+  "music": "assets/audio/scene_04l.mp3",
+  "text": [
+    "Tu appelles doucement. Silence. Tu appelles encore, un peu plus fort cette fois.",
+    "Un froissement dans les feuilles au-dessus de toi. Puis une voix d'enfant — ou quelque chose qui y ressemble — qui descend des branches : \"Tu es seul ? Tu fuis la cendre ?\"",
+    "Entre les feuilles, deux yeux lumineux te fixent. Pas humains. Mais pas hostiles non plus. Attentifs."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Répondre oui à voix basse et demander de l'aide",
+      "target": "scene_05g"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Reculer lentement sans répondre",
+      "target": "scene_05e"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Demander ce qu'est \"la cendre\"",
+      "target": "scene_04r"
+    }
+  ]
+}

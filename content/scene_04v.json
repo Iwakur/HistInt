@@ -1,0 +1,36 @@
+{
+  "id": "scene_04v",
+  "act": "Acte III",
+  "title": "La femme en cape grise",
+  "subtitle": "Forêt de Valdremor",
+  "location": "Forêt de Valdremor",
+  "character": "Kael",
+  "mood": "meeting",
+  "image": "assets/images/scene_04v.jpg",
+  "music": "assets/audio/scene_04v.mp3",
+  "text": [
+    "Tu la suis sans poser de questions. Elle marche vite, sans bruit, comme quelqu'un qui connaît chaque racine de cette forêt.",
+    "Après vingt minutes, elle s'arrête devant un arbre creux et en sort une sacoche cachée.",
+    "Elle t'en tend une partie : des vivres, une fiole, un morceau de parchemin plié. \"Je m'appelle Sela. Ton père m'avait dit que tu viendrais. Pas si vite. Mais je savais que tu viendrais.\""
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Lui demander comment elle connaissait ton père",
+      "target": "scene_04r"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Lui demander où elle te mène",
+      "target": "scene_05a"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Lui demander si Mira est en vie",
+      "target": "scene_05b"
+    }
+  ]
+}

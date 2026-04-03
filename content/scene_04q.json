@@ -1,0 +1,36 @@
+{
+  "id": "scene_04q",
+  "act": "Acte III",
+  "title": "La fuite violente",
+  "subtitle": "Thornwick",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "escape",
+  "image": "assets/images/scene_04q.jpg",
+  "music": "assets/audio/scene_04q.mp3",
+  "text": [
+    "Tu frappes sans prévenir — un coup d'épaule, toute ta masse, droit dans la poitrine de l'encapuchonné.",
+    "Il recule d'un pas, surpris. C'est tout ce qu'il te faut. Tu cours. La ruelle, puis la suivante, puis les champs, puis la lisière de la forêt.",
+    "Tu cours jusqu'à ne plus pouvoir respirer. Quand tu t'arrêtes enfin, il n'y a rien derrière toi. Juste le noir. Et le silence."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Continuer à fuir vers la forêt",
+      "target": "scene_05e"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Reprendre ton souffle et retourner chercher Mira",
+      "target": "scene_04e"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Grimper dans un arbre pour voir si on te suit",
+      "target": "scene_04c"
+    }
+  ]
+}

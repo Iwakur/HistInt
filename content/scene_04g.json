@@ -1,0 +1,35 @@
+{
+  "id": "scene_04g",
+  "act": "Acte III",
+  "title": "L'épée qui brûle froid",
+  "subtitle": "Thornwick",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "revelation",
+  "image": "assets/images/scene_04g.jpg",
+  "music": "assets/audio/scene_04g.mp3",
+  "text": [
+    "En attaquant, l'épée noire s'embrase soudainement d'une flamme froide et bleue — aucune chaleur, juste une lumière glaciale.",
+    "L'encapuchonné fait un bond en arrière, visiblement terrorisé. \"L'Héritier... il est l'Héritier !\" Il s'enfuit en hurlant, abandonnant sa lame courbe sur les pavés."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Ramasser la lame abandonnée et courir sauver Mira",
+      "target": "scene_05i"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Poursuivre l'encapuchonné pour obtenir des réponses",
+      "target": "scene_05j"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Rester sur place, abasourdi, et examiner l'épée",
+      "target": "scene_05k"
+    }
+  ]
+}

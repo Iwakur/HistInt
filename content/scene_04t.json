@@ -1,0 +1,36 @@
+{
+  "id": "scene_04t",
+  "act": "Acte III",
+  "title": "La carte et les documents",
+  "subtitle": "Thornwick",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "discovery",
+  "image": "assets/images/scene_04t.jpg",
+  "music": "assets/audio/scene_04t.mp3",
+  "text": [
+    "Tu sors la carte et les feuillets sous le bras, la forge qui s'effondre dans ton dos.",
+    "Dans l'obscurité, tu déplis la carte à la lueur des flammes : une région entière cartographiée à la main, avec des symboles inconnus sur certains lieux.",
+    "Un point est entouré trois fois, avec deux mots écrits à côté : Tour de Sel. Les documents sont en latin. Mais le mot \"Sceau\" revient à chaque page."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Partir vers la Tour de Sel indiquée sur la carte",
+      "target": "scene_05a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Chercher quelqu'un pour t'aider à déchiffrer les documents",
+      "target": "scene_05d"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Cacher les documents et la carte dans tes vêtements",
+      "target": "scene_05e"
+    }
+  ]
+}

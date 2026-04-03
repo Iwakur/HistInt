@@ -1,0 +1,36 @@
+{
+  "id": "scene_04r",
+  "act": "Acte III",
+  "title": "L'identité de la Confrérie",
+  "subtitle": "Thornwick",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "revelation",
+  "image": "assets/images/scene_04r.jpg",
+  "music": "assets/audio/scene_04r.mp3",
+  "text": [
+    "Peu importe qui te pose la question — l'encapuchonné, Aldric, la femme en cape grise, ou la voix dans la forêt — la réponse est la même.",
+    "Un nom revient, prononcé avec crainte ou avec fierté selon qui parle : la Confrérie des Cendres.",
+    "Fondée sur un serment de sang. Dédiée à ouvrir une porte que les anciens ont scellée pour une raison. Et quelqu'un dans ta famille se trouve au cœur de tout ça depuis bien longtemps."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Chercher la Tour de Sel dont on a parlé",
+      "target": "scene_05a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Retourner à Thornwick pour comprendre davantage",
+      "target": "scene_04f"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Fuir le plus loin possible de tout ça",
+      "target": "scene_05e"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "scene_04e",
+  "act": "Acte III",
+  "title": "Le retour pour Mira",
+  "subtitle": "Thornwick",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "reunion",
+  "image": "assets/images/scene_04e.jpg",
+  "music": "assets/audio/scene_04e.mp3",
+  "text": [
+    "Tu rebrousses chemin à travers les flammes, le médaillon au poing.",
+    "Partout où tu passes, le feu semble hésiter, reculer légèrement.",
+    "Tu retrouves Mira là où tu l'as laissée — consciente, appuyée contre un mur, une main pressée sur sa jambe blessée.",
+    "Elle lève les yeux vers toi. Puis vers le médaillon. Son visage se vide de toute couleur. \"Où tu as trouvé ça ?\""
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Lui expliquer ce qui s'est passé dans la maison",
+      "target": "scene_05b"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Lui demander pourquoi elle réagit comme ça",
+      "target": "scene_05d"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "L'attraper et fuir sans répondre",
+      "target": "scene_05a"
+    }
+  ]
+}

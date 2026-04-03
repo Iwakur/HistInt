@@ -1,0 +1,36 @@
+{
+  "id": "scene_04s",
+  "act": "Acte III",
+  "title": "La lettre cachetée",
+  "subtitle": "Thornwick",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "discovery",
+  "image": "assets/images/scene_04s.jpg",
+  "music": "assets/audio/scene_04s.mp3",
+  "text": [
+    "Tu arraches la lettre et bondis hors de la forge au moment où le toit s'effondre dans un fracas de braises.",
+    "La chaleur te gifle dans le dos. Dix mètres plus loin, à bout de souffle, tu brises le cachet de cire noire — une cendre dans un cercle.",
+    "L'écriture de ton père remplit la page. La première ligne : \"Kael. Si tu lis ça, je suis mort. Et ils ont trouvé Thornwick. Prends la route de sel. Ne t'arrête pas.\""
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Obéir — partir immédiatement vers la route de sel",
+      "target": "scene_05a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Lire la lettre en entier avant de partir",
+      "target": "scene_05b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Retourner dans les ruines de la forge chercher le reste",
+      "target": "scene_04u"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "scene_04u",
+  "act": "Acte III",
+  "title": "Trop longtemps dans la forge",
+  "subtitle": "Thornwick",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "injury",
+  "image": "assets/images/scene_04u.jpg",
+  "music": "assets/audio/scene_04u.mp3",
+  "text": [
+    "Tu ramasses tout — la lettre, la carte, les documents — mais tu prends cinq secondes de trop.",
+    "La poutre maîtresse lâche. Tu plonges en avant au dernier moment, la main tendue vers la trappe.",
+    "Les gravats t'entaillent l'épaule et le dos. Tu rampes hors de la forge à moitié assommé, les documents serrés contre la poitrine, du sang sur la tempe. Tu es vivant. À peine. Mais tu as tout."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Te relever et fuir malgré la douleur",
+      "target": "scene_05a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "T'effondrer derrière une maison et reprendre tes esprits",
+      "target": "scene_05b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Appeler à l'aide — quelqu'un doit encore être là",
+      "target": "scene_04r"
+    }
+  ]
+}

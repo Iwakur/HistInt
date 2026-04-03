@@ -1,0 +1,36 @@
+{
+  "id": "scene_04o",
+  "act": "Acte III",
+  "title": "La diversion",
+  "subtitle": "Thornwick",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "escape",
+  "image": "assets/images/scene_04o.jpg",
+  "music": "assets/audio/scene_04o.mp3",
+  "text": [
+    "Tu ramasses un pavé et le lances contre le volet d'une fenêtre à l'étage. Le bruit claque dans la ruelle.",
+    "L'encapuchonné tourne la tête une fraction de seconde — ça suffit. Tu bondis sur le mur de briques, tes doigts trouvent une prise, tu grimpes comme tu l'as fait cent fois enfant dans ce quartier.",
+    "Tu te hisses sur les toits couverts de tuiles chaudes. En bas, l'encapuchonné te cherche des yeux, immobile, silencieux."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Traverser les toits jusqu'à l'orée de la forêt",
+      "target": "scene_05e"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Observer d'en haut pour voir où vont les encapuchonnés",
+      "target": "scene_04c"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Chercher Mira depuis les toits",
+      "target": "scene_04i"
+    }
+  ]
+}

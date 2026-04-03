@@ -1,0 +1,36 @@
+{
+  "id": "scene_04j",
+  "act": "Acte III",
+  "title": "La sacoche abandonnée",
+  "subtitle": "Forêt de Valdremor",
+  "location": "Forêt de Valdremor",
+  "character": "Kael",
+  "mood": "discovery",
+  "image": "assets/images/scene_04j.jpg",
+  "music": "assets/audio/scene_04j.mp3",
+  "text": [
+    "Dans la sacoche : une fiole de teinture médicale à moitié vide, du pain rassis, et au fond, glissé sous une doublure cousue, un bout de parchemin plié.",
+    "Tu l'ouvres. Une seule ligne d'écriture, en lettres minuscules et serrées : \"Tour de Sel. Demande la Veuve Grise. Ne fais confiance à personne d'autre. — D.\"",
+    "La lettre D. Ton père s'appelait Daren."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Partir immédiatement vers la Tour de Sel",
+      "target": "scene_05a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Attendre au campement jusqu'à l'aube pour ne pas te perdre",
+      "target": "scene_05e"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Retourner à Thornwick chercher Mira avant de partir",
+      "target": "scene_04e"
+    }
+  ]
+}

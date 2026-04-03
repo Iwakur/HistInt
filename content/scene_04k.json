@@ -1,0 +1,36 @@
+{
+  "id": "scene_04k",
+  "act": "Acte III",
+  "title": "Le campement dans l'ombre",
+  "subtitle": "Forêt de Valdremor",
+  "location": "Forêt de Valdremor",
+  "character": "Kael",
+  "mood": "suspense",
+  "image": "assets/images/scene_04k.jpg",
+  "music": "assets/audio/scene_04k.mp3",
+  "text": [
+    "Tu étouffes les braises à la main, ignores la douleur, et te glisses dans les buissons épais à trois mètres du campement.",
+    "Tu attends, immobile. Dix minutes. Vingt. Le silence de la forêt est total — trop total. Aucun insecte. Aucun oiseau de nuit.",
+    "Puis une lumière bleue s'allume lentement entre les arbres, à une cinquantaine de mètres. Elle se rapproche."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Rester caché et laisser la lumière passer",
+      "target": "scene_04b"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Fuir en courant dans la direction opposée",
+      "target": "scene_05e"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Observer la lumière depuis ta cachette",
+      "target": "scene_04c"
+    }
+  ]
+}
