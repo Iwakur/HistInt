@@ -6,8 +6,8 @@
   "location": "Forge",
   "character": "Kael",
   "mood": "fire",
-  "image": "assets/images/scene_01.jpg",
-  "music": "assets/audio/scene_01.mp3",
+  "image": "assets/images/scene_02b.jpg",
+  "music": "assets/audio/scene_02b.mp3",
   "text": [
     "Tu entres dans ta forge en flammes. Les poutres craquent au-dessus.",
     "Parmi les outils, tu trouves une épée courte que ton père n'a",

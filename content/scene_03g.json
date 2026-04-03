@@ -1,0 +1,38 @@
+{
+    "id": "scene_03g",
+    "act": "Acte II",
+    "title": "Le villageois",
+    "subtitle": "LA FORÊT DE VALDREMOR",
+    "location": "hors du village",
+    "character": "Kael",
+    "mood": "fire",
+    "image": "assets/images/scene_03g.jpg",
+    "music": "assets/audio/scene_03g.mp3",
+    "text": [
+        "Tu trouves Aldric, le vieux boulanger, caché derrière un tonneau.",
+        "Il t'aide à soulever Mira. Ensemble vous la portez hors du village.",
+        "En fuyant, Aldric te glisse : 'Ces hommes... j'ai vu leur symbole.",
+        "Une cendre dans un cercle. J'ai déjà vu ça. Sur la bague de",
+        "ton père.'"
+    ],
+    "choices": [
+        {
+            "id": "choice_a",
+            "label": "A",
+            "text": "Fuir avec Aldric et Mira vers la forêt",
+            "target": "scene_03a"
+        },
+        {
+            "id": "choice_b",
+            "label": "B",
+            "text": "Retourner dans le village pour en savoir plus",
+            "target": "scene_03b"
+        },
+        {
+            "id": "choice_c",
+            "label": "C",
+            "text": "Demander à Aldric tout ce qu'il sait sur ton père ",
+            "target": "scene_04r"
+        }
+    ]
+}
