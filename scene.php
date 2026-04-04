@@ -2,58 +2,56 @@
 declare(strict_types=1);
 
 session_start();
-
 require_once __DIR__ . '/includes/functions.php';
 
+// Reset history on new game
 if (isset($_GET['start']) && $_GET['start'] === 'new') {
     $_SESSION['scene_history'] = [];
 }
 
-$sceneId = $_GET['scene'] ?? 'scene_01';
-$sceneId = basename($sceneId);
+// Get scene data
+$sceneId = basename($_GET['scene'] ?? 'scene_01'); // Prevent directory traversal
 $data = loadScene($sceneId);
 
-if (!$data) {
-    http_response_code(404);
-    die('Scene not found.');
+// Update user progress
+$user = currentUser();
+if ($user) {
+    updateCurrentScene((int)$user['id'], $sceneId);
 }
-echo "<pre>";
-print_r($data);
-echo "</pre>";
 
+// Validate scene data
 if (!$data || !isset($data['title'], $data['text'], $data['choices'])) {
     http_response_code(500);
     die('Invalid scene data.');
 }
 
+// Initialize scene history if needed
 if (!isset($_SESSION['scene_history'])) {
     $_SESSION['scene_history'] = [];
 }
 
+// Handle back navigation
 if (isset($_GET['from_back']) && $_GET['from_back'] === '1') {
     $currentIndex = array_search($sceneId, $_SESSION['scene_history']);
-
     if ($currentIndex !== false) {
         $_SESSION['scene_history'] = array_slice($_SESSION['scene_history'], 0, $currentIndex + 1);
     }
 } else {
+    // Add to history if not already there
     $lastScene = end($_SESSION['scene_history']);
-
     if ($lastScene !== $sceneId) {
         $_SESSION['scene_history'][] = $sceneId;
     }
 }
 
+// Get previous scene for back button
 $previousScene = null;
-$historyCount = count($_SESSION['scene_history']);
-
-if ($historyCount > 1) {
-    $currentIndex = array_search($sceneId, $_SESSION['scene_history']);
-    if ($currentIndex > 0) {
-        $previousScene = $_SESSION['scene_history'][$currentIndex - 1];
-    }
+$currentIndex = array_search($sceneId, $_SESSION['scene_history']);
+if ($currentIndex > 0) {
+    $previousScene = $_SESSION['scene_history'][$currentIndex - 1];
 }
 
+// Extract scene data
 $showNavigation = true;
 $title = $data['title'] ?? 'Untitled Scene';
 $subtitle = $data['subtitle'] ?? '';
@@ -64,7 +62,6 @@ $image = $data['image'] ?? '';
 $music = $data['music'] ?? '';
 $textBlocks = $data['text'] ?? [];
 $choices = $data['choices'] ?? [];
-
 $pageTitle = $title . ' | HistInt';
 
 require __DIR__ . '/includes/header.php';

@@ -3,7 +3,16 @@ $pageTitle = 'HistInt - Accueil';
 $showNavigation = false;
 require_once __DIR__ . '/includes/functions.php';
 require __DIR__ . '/includes/header.php';
+
+$user = currentUser();
+
+
+if (isset($_GET['action']) && $_GET['action'] === 'logout') {
+    logoutUser();
+}
 ?>
+
+
 
 <main class="landing-page">
     <section class="hero">
@@ -22,38 +31,40 @@ require __DIR__ . '/includes/header.php';
             </p>
 
             <div class="hero-actions">
-                <a href="scene.php?scene=scene_01&start=new" class="btn btn-primary">Commencer l’histoire</a>
-                <a href="#about-story" class="btn btn-secondary">Découvrir l’univers</a>
+                <?php if ($user): ?>
+    <a href="scene.php?scene=<?= e($user['current_scene']) ?>" class="btn btn-primary">Reprendre</a>
+<a href="scene.php?scene=scene_01&start=new" class="btn btn-secondary">Nouvelle partie</a>
+    <a href="index.php?action=logout" class="btn btn-secondary">Déconnexion</a>
+<?php else: ?>
+    <a href="scene.php?scene=scene_01" class="btn btn-primary">Nouvelle partie</a>
+    <a href="login.php" class="btn btn-secondary">Connexion</a>
+<?php endif; ?>
             </div>
         </div>
     </section>
 
     <section class="intro-card reveal">
-        <div class="intro-grid">
-            <div class="intro-text">
-                <p class="section-kicker">Bienvenue</p>
-                <h2>Entre dans un monde de cendres, de forêts et de vérités interdites</h2>
-                <p>
-                    Thornwick brûle. Kael, jeune forgeron, voit sa vie basculer en une seule nuit.
-                    Entre la disparition des repères, les silhouettes encapuchonnées et les secrets
-                    laissés par son père, chaque choix ouvre un nouveau chemin.
-                </p>
-                <p>
-                    Ce projet est une histoire interactive textuelle : tu avances scène par scène,
-                    explores plusieurs branches du récit, et découvres progressivement ce qui relie
-                    le village en flammes, la forêt de Valdremor, la Tour de Sel et la Confrérie des Cendres.
-                </p>
-            </div>
+        <div class="content-wrapper">
+    <p class="section-kicker">Projet Portes Ouvertes</p>
+    <h2>Entre dans un monde de cendres, de forêts et de vérités interdites</h2>
+    
+    <p>
+        Thornwick brûle. Kael, jeune forgeron, voit sa vie basculer en une seule nuit. 
+        Entre la disparition de ses repères, l'ombre des silhouettes encapuchonnées et les secrets 
+        laissés par son père, chaque choix devient une nouvelle branche de son destin.
+    </p>
 
-            <!-- <div class="intro-quote">
-                <div class="quote-box">
-                    <p>
-                        “Le feu détruit les maisons. Les secrets détruisent les lignées.”
-                    </p>
-                    <span>Chronique de Valdremor</span>
-                </div> -->
-            </div>
-        </div>
+    <p>
+        <strong>Une métamorphose numérique :</strong> Ce projet s'inspire des classiques "Livres dont vous êtes le héros". 
+        Là où les pages se tournaient autrefois à la main, le web permet aujourd'hui une expérience fluide et interactive. 
+        C'est une évolution du récit : vous explorez les profondeurs de la forêt de Valdremor et les mystères de la Tour de Sel 
+        à travers une interface dynamique où vos décisions sculptent l'histoire en temps réel.
+    </p>
+
+    <div class="credits">
+        <p><strong>Créé par l'équipe :</strong> Hlib, Clément, Théo, Harry, Ashley</p>
+    </div>
+</div>
     </section>
 
     <section id="about-story" class="about-grid">
@@ -127,18 +138,6 @@ require __DIR__ . '/includes/header.php';
                     <p>Le destin de Kael, de Mira et de Valdremor dépend des décisions prises.</p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section class="cta-section reveal">
-        <div class="cta-box">
-            <p class="section-kicker">Commencer</p>
-            <h2>La première nuit t’attend</h2>
-            <p>
-                Entre dans Thornwick au moment où les flammes dévorent les granges, où les cris
-                résonnent dans les ruelles, et où ton premier choix décidera déjà du ton de ton destin.
-            </p>
-            <a href="scene.php?scene=scene_01&start=new" class="btn btn-primary btn-large">Entrer dans l’histoire</a>
         </div>
     </section>
 </main>

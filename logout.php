@@ -1,10 +1,13 @@
 <?php
 declare(strict_types=1);
 
-session_start();
 require __DIR__ . '/includes/functions.php';
 
-logoutUser();
+// Only log out if user is logged in, then redirect
+if (currentUser()) {
+    logoutUser();
+}
 
+// If user not logged in, redirect to home
 header('Location: index.php');
 exit;

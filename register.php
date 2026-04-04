@@ -4,23 +4,26 @@ declare(strict_types=1);
 session_start();
 require __DIR__ . '/includes/functions.php';
 
-$message = '';
+$msg = '';
+$isError = false;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'] ?? '';
     $password = $_POST['password'] ?? '';
-
     $result = registerUser($username, $password);
-    $message = $result['message'];
 
     if ($result['success']) {
+        // Auto-login after successful registration
         $login = loginUser($username, $password);
-
         if ($login['success']) {
+            $_SESSION['message'] = 'Account created successfully!';
             header('Location: index.php');
             exit;
         }
     }
+    
+    $msg = $result['message'];
+    $isError = true;
 }
 
 $pageTitle = 'Register';
@@ -31,30 +34,43 @@ $pageTitle = 'Register';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= e($pageTitle) ?></title>
+    <style>
+        body { font-family: Georgia, serif; max-width: 600px; margin: 50px auto; color: #f0e6d2; background: #0d0a08; }
+        .container { background: rgba(28, 22, 17, 0.88); padding: 2rem; border-radius: 12px; }
+        h1 { color: #e3c890; }
+        label { display: block; margin-bottom: 0.3rem; font-weight: bold; }
+        input { width: 100%; padding: 0.6rem; margin-bottom: 1.2rem; background: rgba(255, 255, 255, 0.1); border: 1px solid #c9a668; color: #f0e6d2; border-radius: 6px; }
+        button { background: #c9a668; color: #1b140d; padding: 0.8rem 2rem; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; width: 100%; }
+        button:hover { opacity: 0.9; }
+        .message { padding: 1rem; margin-bottom: 1rem; border-radius: 6px; }
+        .error { background: rgba(200, 50, 50, 0.2); color: #ff9999; }
+        .login { margin-top: 1rem; text-align: center; }
+        .login a { color: #e3c890; text-decoration: none; }
+    </style>
 </head>
 <body>
-    <h1>Create account</h1>
+    <div class="container">
+        <h1>Create Account</h1>
 
-    <?php if ($message !== ''): ?>
-        <p><?= e($message) ?></p>
-    <?php endif; ?>
+        <?php if ($msg): ?>
+            <div class="message <?= $isError ? 'error' : '' ?>">
+                <?= e($msg) ?>
+            </div>
+        <?php endif; ?>
 
-    <form method="post">
-        <label>
-            Username
-            <input type="text" name="username" required>
-        </label>
-        <br><br>
+        <form method="post">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
 
-        <label>
-            Password
-            <input type="password" name="password" required>
-        </label>
-        <br><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
 
-        <button type="submit">Register</button>
-    </form>
+            <button type="submit">Register</button>
+        </form>
 
-    <p><a href="login.php">Already have an account?</a></p>
+        <div class="login">
+            <p>Already have an account? <a href="login.php">Log in</a></p>
+        </div>
+    </div>
 </body>
 </html>
