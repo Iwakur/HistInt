@@ -1,12 +1,7 @@
 <?php
-require __DIR__ . '/includes/functions.php';
-
-// Start session for potential future features
-session_start();
-
-$pageTitle = 'Les Ombres de Valdremor';
-$showNavigation = false; // Landing page doesn't need navigation
-$sceneJavaScript = false; // No scene-specific JS needed
+$pageTitle = 'HistInt - Accueil';
+$showNavigation = false;
+require_once __DIR__ . '/includes/functions.php';
 require __DIR__ . '/includes/header.php';
 ?>
 
@@ -50,13 +45,13 @@ require __DIR__ . '/includes/header.php';
                 </p>
             </div>
 
-            <div class="intro-quote">
+            <!-- <div class="intro-quote">
                 <div class="quote-box">
                     <p>
                         “Le feu détruit les maisons. Les secrets détruisent les lignées.”
                     </p>
                     <span>Chronique de Valdremor</span>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

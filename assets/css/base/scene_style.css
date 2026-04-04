@@ -284,7 +284,7 @@ body {
   }
 }
 
-.music-box {
+/* .music-box {
   margin-top: 1rem;
   padding: 0.9rem 1rem;
   background: rgba(255, 255, 255, 0.03);
@@ -298,7 +298,7 @@ body {
   font-size: 0.9rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-}
+} */
 
 audio {
   width: 100%;
@@ -409,6 +409,49 @@ audio {
   text-align: center;
 }
 
+.page-footer {
+  margin-top: 1.25rem;
+  margin: 1.25rem 0 0 0;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 12px 30px var(--shadow);
+  backdrop-filter: blur(4px);
+}
+
+.page-footer-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(201, 166, 104, 0.1);
+  border-radius: 18px;
+  padding: 1rem 1.1rem;
+}
+
+.page-footer .footer-note {
+  margin: 0;
+}
+
+.page-footer-copy {
+  margin: 0;
+  max-width: 52rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.page-footer-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem 1rem;
+}
+
+
 @media (max-width: 900px) {
   .main-layout {
     grid-template-columns: 1fr;
@@ -440,6 +483,15 @@ audio {
   .panel {
     padding: 1rem;
     border-radius: 22px;
+  }
+
+  .page-footer {
+    border-radius: 20px;
+    padding: 0.9rem;
+  }
+
+  .page-footer-inner {
+    border-radius: 16px;
   }
 
   .panel-inner {

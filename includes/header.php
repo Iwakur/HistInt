@@ -1,12 +1,15 @@
-<?php if (!isset($pageTitle)) $pageTitle = 'Les Ombres de Valdremor'; ?>
+<?php
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= e($pageTitle) ?></title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="page_style.css">
+    <link rel="stylesheet" href="assets/css/base/index_style.css">
+    <link rel="stylesheet" href="assets/css/base/scene_style.css">
+    <link rel="icon" href="assets/specials/favicon.png" type="image/png">
+    <script src="assets/js/main.js"></script>
 
 </head>
 <body>
@@ -21,11 +24,10 @@
                 <?php else: ?>
                     <a class="nav-link" href="index.php">Return</a>
                 <?php endif; ?>
-                <a class="nav-link" href="scene.php?scene=scene_01&start=new" title="Restart Story">↻</a>
             </div>
 
             <div class="nav-center">
-                <a class="nav-title" href="about.php">About</a>
+                <a class="nav-title" href="index.php">About</a>
             </div>
 
             <div class="nav-right">
@@ -34,4 +36,3 @@
             </div>
         </header>
     <?php endif; ?>
-    

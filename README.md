@@ -1,26 +1,29 @@
 HistInt/
-├── exp(states for experiments)/
-│   └── scene1.html
 │
-├── README.md       (structure, messages for team, etc)
-├── index.php      (first and about page, one version written in plan html)
-├── page.php        (dynamic page, The Scene, main part)
-├── profiles.php    (may be neglected for now, for savings, SQL management etc)
+├── README.md      
+├── index.php              
+├── scene.php        
+├── profiles.php   
 │
-├── content/        (script in JSON accoding to template (first scene))
-│   ├── scene_01.json
+├── content/               #TODO verify the history fully, implement special MOOD tags for CSS+JS effects/ fix actes 
+│   ├── scene_01.json      
 │   └── scene_02a.json
+│   └── scene_03.....
 │
-├── includes/       (didn't realise yet)
+├── includes/      
 │   ├── header.php
 │   ├── footer.php
 │   └── functions.php
 │
-├── assets/         (now still inside php files, must be separated)
+├── assets/                #TODO complete images and music - should be connected to mood
 │   ├── css/
 │   │   └── style.css
 │   └── js/
 │       └── script.js
 
-─────────────────────────────────────────────────────────────────────────────────────────
-add description about the change of french book about the main hero
+#TODO - Rewrite text, optimisation, comments, polish
+#TODO - implement profile system
+
+
+
+Reread all css, js files, optimise them

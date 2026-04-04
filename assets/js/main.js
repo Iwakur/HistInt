@@ -1,13 +1,10 @@
-/**
- * Reveal elements on scroll using Intersection Observer
- */
 function initRevealOnScroll() {
     const revealElements = document.querySelectorAll('.reveal');
 
     if (!revealElements.length) return;
 
     const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
+        entries.forEach((entry) => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('visible');
                 observer.unobserve(entry.target);
@@ -18,16 +15,14 @@ function initRevealOnScroll() {
         rootMargin: '0px 0px -50px 0px'
     });
 
-    revealElements.forEach(element => {
+    revealElements.forEach((element) => {
         observer.observe(element);
     });
 }
 
-/**
- * Generate falling embers animation
- */
 function createEmbers() {
     const embersContainer = document.getElementById('embers');
+
     if (!embersContainer) return;
 
     function createEmber() {
@@ -54,17 +49,30 @@ function createEmbers() {
         }, (duration + delay) * 1000);
     }
 
-    // Create initial batch
     for (let i = 0; i < 5; i++) {
         setTimeout(createEmber, i * 200);
     }
 
-    // Continuous generation
-    setInterval(createEmber, 500);
+    setInterval(createEmber, 100);
 }
 
-// Initialize on DOM ready
+function music() {
+    const music = document.getElementById('gameMusic');
+
+    window.onbeforeunload = function () {
+        localStorage.setItem('musicTime', music.currentTime);
+    };
+
+    window.onload = function () {
+        const savedTime = localStorage.getItem('musicTime');
+        if (savedTime) {
+            music.currentTime = savedTime;
+        }
+    };
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     initRevealOnScroll();
     createEmbers();
+    music();
 });

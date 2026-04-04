@@ -1,5 +1,7 @@
 <?php
-$pageTitle = 'Profil | Les Ombres de Valdremor';
+require_once __DIR__ . '/includes/functions.php';
+
+$pageTitle = 'HistInt - Profil';
 $showNavigation = true;
 $sceneJavaScript = false;
 require __DIR__ . '/includes/header.php';
