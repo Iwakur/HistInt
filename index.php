@@ -10,8 +10,8 @@ if (isset($_GET['action']) && $_GET['action'] === 'logout') {
     logoutUser();
 }
 
-if ($_SESSION['message'] ?? false) {
-echo '<script>alert("' . e($_SESSION['message']) . '")</script>';
+$flashMessage = $_SESSION['message'] ?? '';
+if ($flashMessage !== '') {
     unset($_SESSION['message']);
 }
 
@@ -28,6 +28,12 @@ require __DIR__ . '/includes/header.php';
             <p class="eyebrow">Chronique interactive médiévale</p>
 
             <h1 class="hero-title">Les Ombres de Valdremor</h1>
+
+            <?php if ($flashMessage !== ''): ?>
+                <div class="hero-flash" role="status">
+                    <?= e($flashMessage) ?>
+                </div>
+            <?php endif; ?>
 
             <p class="hero-subtitle">
                 Une histoire de feu, de cendres, de secrets anciens et d’héritage caché.

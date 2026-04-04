@@ -80,6 +80,17 @@
     color: #cfc7bb;
 }
 
+.hero-flash {
+    width: min(34rem, 100%);
+    margin: 1.25rem auto 0;
+    padding: 0.95rem 1.1rem;
+    border-radius: 14px;
+    border: 1px solid rgba(218, 195, 160, 0.18);
+    background: rgba(218, 195, 160, 0.1);
+    color: #f7f2ea;
+    line-height: 1.6;
+}
+
 
 /* =========================================================
    4. BUTTONS / ACTIONS

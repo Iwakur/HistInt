@@ -470,6 +470,53 @@ audio {
   gap: 0.75rem 1rem;
 }
 
+.profile-intro {
+  margin: 0 0 1.4rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.3rem;
+}
+
+.profile-card {
+  padding: 1rem 1.1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(201, 166, 104, 0.14);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.profile-label {
+  margin: 0 0 0.5rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.profile-card h2 {
+  margin: 0;
+  color: var(--gold-soft);
+  font-size: clamp(1.3rem, 2vw, 1.7rem);
+}
+
+.profile-copy {
+  margin: 0.55rem 0 0;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.profile-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.25rem;
+}
+
 
 @media (max-width: 900px) {
   .main-layout {
@@ -478,6 +525,10 @@ audio {
 
   .choice {
     min-height: 90px;
+  }
+
+  .profile-grid {
+    grid-template-columns: 1fr;
   }
 }
 
