@@ -5,9 +5,10 @@
   "subtitle": "Thornwick",
   "location": "Thornwick",
   "character": "Kael",
-  "mood": "chase",
-  "image": "assets/images/scene_05j.jpg",
-  "music": "assets/audio/scene_05j.mp3",
+  "mood": "tension",
+  "styles": "assets/css/moods/tension_style.css",
+  "image": "",
+  "music": "assets/audio/tension.mp3",
   "text": [
     "Tu cours derrière l'encapuchonné dans les ruelles en feu. Il est rapide mais il trébuche sur un seuil effondré — juste assez pour que tu l'attrapes par le capuchon.",
     "Il tombe. Son masque glisse. Tu t'attendais à n'importe quoi. Pas à ça : un visage ordinaire. Un homme d'une cinquantaine d'années, effrayé, les larmes aux joues.",

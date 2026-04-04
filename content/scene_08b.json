@@ -5,9 +5,10 @@
   "subtitle": "La Tour de Sel",
   "location": "Tour de Sel",
   "character": "Kael",
-  "mood": "quest",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
   "image": "assets/images/scene_08b.jpg",
-  "music": "assets/audio/scene_08b.mp3",
+  "music": "assets/audio/destiny.mp3",
   "text": [
     "La Veuve Grise soupire longuement. \"Extraire le Sceau de force te tuera à coup sûr.",
     "Mais il existe peut-être une autre voie. Un rituel oublié, consigné dans le Grimoire des Premiers Mages.",

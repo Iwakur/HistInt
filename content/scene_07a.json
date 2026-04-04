@@ -5,9 +5,10 @@
   "subtitle": "La Tour de Sel",
   "location": "Tour de Sel",
   "character": "Kael",
-  "mood": "secret",
+  "mood": "stealth",
+  "styles": "assets/css/moods/stealth_style.css",
   "image": "assets/images/scene_07a.jpg",
-  "music": "assets/audio/scene_07a.mp3",
+  "music": "assets/audio/stealth.mp3",
   "text": [
     "La Veuve Grise se lève lentement et pose une main froide sur ton épaule.",
     "\"Ton père Daren était le gardien du Sceau de Valdremor. Un artefact capable de fermer ou d'ouvrir la porte entre notre monde et le Royaume des Ombres.",

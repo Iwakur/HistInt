@@ -1,0 +1,37 @@
+{
+  "id": "scene_07g",
+  "act": "Acte VI",
+  "title": "L’écho de Daren",
+  "subtitle": "Le choix final",
+  "location": "Tour de Sel",
+  "character": "Kael",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
+  "image": "",
+  "music": "assets/audio/destiny.mp3",
+  "text": [
+    "La réponse tombe toujours avec la même gravité : Daren est mort, mais le Sceau garde encore son empreinte, ses derniers choix, presque sa voix.",
+    "Quant à Varn, il te connaît parce que le sang de votre famille a toujours été lié à la garde de la porte. Il te cherche autant comme héritier que comme preuve vivante de la trahison de ton père.",
+    "Comprendre cela ne résout rien, mais cela éclaire enfin le choix qui t'attend."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Assumer cet héritage et te préparer à l'affrontement",
+      "target": "scene_08a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Chercher à briser le lien du Sceau avec ton sang",
+      "target": "scene_08b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Tenter de trouver une issue qui dépasse l'héritage familial",
+      "target": "scene_08c"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "scene_06c",
+  "act": "Acte V",
+  "title": "Le signe de reconnaissance",
+  "subtitle": "La Tour de Sel",
+  "location": "Pont-levis de la Tour",
+  "character": "Kael",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
+  "image": "",
+  "music": "assets/audio/destiny.mp3",
+  "text": [
+    "Tu lèves le médaillon et l'épée noire dans la lumière de l'aube. Les gardes se figent aussitôt, puis échangent un regard inquiet.",
+    "Sans un mot, ils abaissent le pont-levis et te conduisent jusqu'à la grande salle où la Veuve Grise t'attend déjà.",
+    "Ses yeux glissent immédiatement vers l'objet que tu portes. Elle a compris avant même que tu parles."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Lui demander directement ce qu'elle sait sur Daren",
+      "target": "scene_07a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Exiger qu'elle t'explique la Confrérie des Cendres",
+      "target": "scene_07b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Déposer le médaillon devant elle sans un mot",
+      "target": "scene_07c"
+    }
+  ]
+}

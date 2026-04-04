@@ -6,8 +6,9 @@
   "location": "Thornwick",
   "character": "Kael",
   "mood": "tension",
-  "image": "assets/images/scene_04f.jpg",
-  "music": "assets/audio/scene_04f.mp3",
+  "styles": "assets/css/moods/tension_style.css",
+  "image": "",
+  "music": "assets/audio/tension.mp3",
   "text": [
     "Tu restes dans la maison qui se consume lentement, adossé au mur du fond, le médaillon chaud entre tes doigts.",
     "Deux minutes passent. Puis trois. Une silhouette encapuchonnée franchit le seuil en ruines, s'arrête au milieu de la pièce et renifle l'air comme un animal.",

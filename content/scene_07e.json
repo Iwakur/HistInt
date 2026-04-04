@@ -1,0 +1,37 @@
+{
+  "id": "scene_07e",
+  "act": "Acte VI",
+  "title": "Le silence de Mira",
+  "subtitle": "Le choix final",
+  "location": "Relais de chasse",
+  "character": "Kael",
+  "mood": "cold",
+  "styles": "assets/css/moods/cold_style.css",
+  "image": "",
+  "music": "assets/audio/cold.mp3",
+  "text": [
+    "Mira baisse les yeux et avoue qu'elle avait promis à Daren de ne rien révéler tant que tu n'aurais pas toi-même survécu à la première nuit.",
+    "Elle craignait qu'une vérité trop tôt dite te pousse directement dans les mains de la Confrérie.",
+    "Maintenant que tout est révélé, sa peur devient la tienne : que faire de ce que ton père a caché en toi ?"
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Lui dire que tu acceptes malgré tout ce destin",
+      "target": "scene_08a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Lui dire que tu refuses ce fardeau",
+      "target": "scene_08b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Lui demander de t'aider à trouver une troisième voie",
+      "target": "scene_08c"
+    }
+  ]
+}

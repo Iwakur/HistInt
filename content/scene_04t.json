@@ -5,9 +5,10 @@
   "subtitle": "Thornwick",
   "location": "Thornwick",
   "character": "Kael",
-  "mood": "discovery",
-  "image": "assets/images/scene_04t.jpg",
-  "music": "assets/audio/scene_04t.mp3",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
+  "image": "",
+  "music": "assets/audio/destiny.mp3",
   "text": [
     "Tu sors la carte et les feuillets sous le bras, la forge qui s'effondre dans ton dos.",
     "Dans l'obscurité, tu déplis la carte à la lueur des flammes : une région entière cartographiée à la main, avec des symboles inconnus sur certains lieux.",

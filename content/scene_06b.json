@@ -1,0 +1,37 @@
+{
+  "id": "scene_06b",
+  "act": "Acte V",
+  "title": "L'entrée oubliée",
+  "subtitle": "La Tour de Sel",
+  "location": "Fondations de la Tour",
+  "character": "Kael",
+  "mood": "stealth",
+  "styles": "assets/css/moods/stealth_style.css",
+  "image": "",
+  "music": "assets/audio/stealth.mp3",
+  "text": [
+    "En suivant les marques de la carte, tu trouves une grille presque noyée dans le sel et la mousse. Derrière, un couloir étroit mène sous la Tour.",
+    "Tu avances dans l'ombre jusqu'à entendre une voix âgée parler du Sceau et du nom de Daren derrière une porte entrebâillée.",
+    "Tu peux surgir maintenant, écouter encore, ou poser le médaillon sur un autel de pierre couvert de poussière."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Entrer et demander ce que la Veuve Grise sait sur ton père",
+      "target": "scene_07a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Rester caché et écouter ce qu'ils savent de la Confrérie",
+      "target": "scene_07b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Poser le médaillon sur l'autel sans dire un mot",
+      "target": "scene_07c"
+    }
+  ]
+}

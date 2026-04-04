@@ -8,6 +8,9 @@
     <title><?= e($pageTitle) ?></title>
     <link rel="stylesheet" href="assets/css/base/index_style.css">
     <link rel="stylesheet" href="assets/css/base/scene_style.css">
+    <?php if (isset($sceneStyle) && $sceneStyle !== ''): ?>
+        <link rel="stylesheet" href="<?= e($sceneStyle) ?>">
+    <?php endif; ?>
     <link rel="icon" href="assets/specials/favicon.png" type="image/png">
     <script src="assets/js/main.js"></script>
 

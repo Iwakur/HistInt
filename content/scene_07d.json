@@ -1,0 +1,37 @@
+{
+  "id": "scene_07d",
+  "act": "Acte VI",
+  "title": "L’aveu de Mira",
+  "subtitle": "Le choix final",
+  "location": "Relais de chasse",
+  "character": "Kael",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
+  "image": "",
+  "music": "assets/audio/destiny.mp3",
+  "text": [
+    "Mira t'explique enfin que Daren avait rejoint la Confrérie très jeune avant de découvrir ce qu'elle voulait vraiment ouvrir.",
+    "Quand il a compris que le Sceau devait être protégé, il a préparé sa trahison et t'a confié malgré lui la dernière part de son combat.",
+    "À la fin de son récit, elle te laisse une seule question : vas-tu accepter cet héritage, le rejeter, ou chercher une autre issue ?"
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Accepter le rôle que Daren a laissé derrière lui",
+      "target": "scene_08a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Refuser de porter le poids du Sceau",
+      "target": "scene_08b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Chercher un moyen d'arrêter la Confrérie autrement",
+      "target": "scene_08c"
+    }
+  ]
+}

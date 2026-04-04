@@ -1,0 +1,37 @@
+{
+  "id": "scene_06f",
+  "act": "Acte V",
+  "title": "Le tatouage du corbeau",
+  "subtitle": "La vérité sur le père",
+  "location": "Relais de chasse",
+  "character": "Kael",
+  "mood": "stealth",
+  "styles": "assets/css/moods/stealth_style.css",
+  "image": "",
+  "music": "assets/audio/stealth.mp3",
+  "text": [
+    "Mira cache d'abord son poignet, puis comprend que le secret n'a plus de sens. Le corbeau est la marque d'un réseau de guetteurs opposés à la Confrérie.",
+    "Elle t'avoue que Daren lui avait demandé de veiller sur toi le jour où tout commencerait à brûler.",
+    "Son silence n'était pas de l'indifférence. C'était une promesse."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Lui demander de tout raconter depuis la promesse faite à Daren",
+      "target": "scene_07d"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Lui demander pourquoi elle a attendu si longtemps",
+      "target": "scene_07e"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Refuser de lui faire confiance malgré ses explications",
+      "target": "scene_07f"
+    }
+  ]
+}

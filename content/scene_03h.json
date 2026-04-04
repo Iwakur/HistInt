@@ -6,8 +6,9 @@
   "location": "forêt de Valdremor",
   "character": "Kael",
   "mood": "fire",
-  "image": "assets/images/scene_03h.jpg",
-  "music": "assets/audio/scene_03h.mp3",
+  "styles": "assets/css/moods/fire_style.css",
+  "image": "",
+  "music": "assets/audio/fire.mp3",
   "text": [
     "Sous l'enclume, tu trouves une trappe. En dessous : une petite pièce secrète contenant des documents, une carte et une lettre cachetée à ton nom. La forge s'effondre au-dessus — tu as dix secondes pour prendre ce que tu peux."
   ],

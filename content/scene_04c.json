@@ -6,8 +6,9 @@
   "location": "relais de chasse abandonné",
   "character": "Kael",
   "mood": "fire",
+  "styles": "assets/css/moods/fire_style.css",
   "image": "assets/images/scene_04c.jpg",
-  "music": "assets/audio/scene_04c.mp3",
+  "music": "assets/audio/fire.mp3",
   "text": [
     "Du haut de l'arbre, tu vois la lumière bleue de près. Une douzaine d'encapuchonnés marchent en formation rituelle autour d'une flamme froide. Ils transportent quelque chose dans une cage de métal noir : une créature ailée, minuscule, qui ressemble à un être humain de la taille d'une main. Elle te regarde, droit dans les yeux."
   ],

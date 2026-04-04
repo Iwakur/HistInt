@@ -5,9 +5,10 @@
   "subtitle": "La forêt de Valdremor",
   "location": "Forêt de Valdremor",
   "character": "Kael",
-  "mood": "escape",
-  "image": "assets/images/scene_04d.jpg",
-  "music": "assets/audio/scene_04d.mp3",
+  "mood": "tension",
+  "styles": "assets/css/moods/tension_style.css",
+  "image": "",
+  "music": "assets/audio/tension.mp3",
   "text": [
     "Tu sors de la maison en courant, le médaillon serré dans le poing.",
     "À chaque pas dans la nuit, tu sens son poids froid dans ta main, comme une pierre de rivière en plein hiver.",

@@ -1,0 +1,13 @@
+:root {
+  --bg: #08120f;
+  --panel: rgba(18, 31, 27, 0.92);
+  --panel-soft: rgba(27, 45, 40, 0.88);
+  --panel-light: rgba(43, 66, 58, 0.72);
+  --border: rgba(131, 174, 154, 0.2);
+  --border-strong: rgba(170, 212, 193, 0.4);
+  --text: #e7f3ed;
+  --muted: #a8c0b4;
+  --gold: #83ae9a;
+  --gold-soft: #cfe9dd;
+  --shadow: rgba(0, 0, 0, 0.42);
+}

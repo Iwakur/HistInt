@@ -5,9 +5,10 @@
   "subtitle": "Thornwick",
   "location": "Thornwick",
   "character": "Kael",
-  "mood": "injury",
-  "image": "assets/images/scene_04u.jpg",
-  "music": "assets/audio/scene_04u.mp3",
+  "mood": "tension",
+  "styles": "assets/css/moods/tension_style.css",
+  "image": "",
+  "music": "assets/audio/tension.mp3",
   "text": [
     "Tu ramasses tout — la lettre, la carte, les documents — mais tu prends cinq secondes de trop.",
     "La poutre maîtresse lâche. Tu plonges en avant au dernier moment, la main tendue vers la trappe.",

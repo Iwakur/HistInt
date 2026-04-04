@@ -1,38 +1,39 @@
 {
-    "id": "scene_04b",
-    "act": "Acte III",
-    "title": "La lumière des âmes perdues",
-    "subtitle": "LES RÉVÉLATIONS",
-    "location": "hors du village",
-    "character": "Kael",
-    "mood": "fire",
-    "image": "assets/images/scene_04b.jpg",
-    "music": "assets/audio/scene_04b.mp3",
-    "text": [
-        "Vous atteignez un vieux relais de chasse abandonné. À l'intérieur",
-        "une carte griffonnée à la hâte et un message écrit en hâte :",
-        "Si tu lis ceci, Thornwick est tombé. Va à la Tour de Sel.",
-        "Demande la Veuve Grise. Elle sait tout ce que je ne pouvais",
-        "pas te dire. La signature : ton père, Daren."
-    ],
-    "choices": [
-        {
-            "id": "choice_a",
-            "label": "A",
-            "text": "Chercher activement quelqu'un avec un tatouage de corbeau",
-            "target": "scene_05d"
-        },
-        {
-            "id": "choice_b",
-            "label": "B",
-            "text": "Fuir au plus vite avant que la Confrérie arrive",
-            "target": "scene_05e"
-        },
-        {
-            "id": "choice_c",
-            "label": "C",
-            "text": "Toucher à nouveau la sphère pour en savoir plus",
-            "target": "scene_05f"
-        }
-    ]
+  "id": "scene_04b",
+  "act": "Acte III",
+  "title": "La lumière des âmes perdues",
+  "subtitle": "LES RÉVÉLATIONS",
+  "location": "hors du village",
+  "character": "Kael",
+  "mood": "fire",
+  "styles": "assets/css/moods/fire_style.css",
+  "image": "assets/images/scene_04b.jpg",
+  "music": "assets/audio/fire.mp3",
+  "text": [
+    "Vous atteignez un vieux relais de chasse abandonné. À l'intérieur",
+    "une carte griffonnée à la hâte et un message écrit en hâte :",
+    "Si tu lis ceci, Thornwick est tombé. Va à la Tour de Sel.",
+    "Demande la Veuve Grise. Elle sait tout ce que je ne pouvais",
+    "pas te dire. La signature : ton père, Daren."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Chercher activement quelqu'un avec un tatouage de corbeau",
+      "target": "scene_05d"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Fuir au plus vite avant que la Confrérie arrive",
+      "target": "scene_05e"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Toucher à nouveau la sphère pour en savoir plus",
+      "target": "scene_05f"
+    }
+  ]
 }

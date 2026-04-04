@@ -5,9 +5,10 @@
   "subtitle": "Forêt de Valdremor",
   "location": "Forêt de Valdremor",
   "character": "Kael",
-  "mood": "suspense",
-  "image": "assets/images/scene_04k.jpg",
-  "music": "assets/audio/scene_04k.mp3",
+  "mood": "tension",
+  "styles": "assets/css/moods/tension_style.css",
+  "image": "",
+  "music": "assets/audio/tension.mp3",
   "text": [
     "Tu étouffes les braises à la main, ignores la douleur, et te glisses dans les buissons épais à trois mètres du campement.",
     "Tu attends, immobile. Dix minutes. Vingt. Le silence de la forêt est total — trop total. Aucun insecte. Aucun oiseau de nuit.",

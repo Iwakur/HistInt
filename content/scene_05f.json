@@ -5,9 +5,10 @@
   "subtitle": "La nuit de Thornwick",
   "location": "Thornwick",
   "character": "Kael",
-  "mood": "power",
-  "image": "assets/images/scene_05f.jpg",
-  "music": "assets/audio/scene_05f.mp3",
+  "mood": "fire",
+  "styles": "assets/css/moods/fire_style.css",
+  "image": "",
+  "music": "assets/audio/fire.mp3",
   "text": [
     "Tu tiens le médaillon à bout de bras. Le symbole gravé dans l'obsidienne s'illumine d'un bleu froid.",
     "L'encapuchonné, ou la créature, ou la nuit elle-même — peu importe — s'immobilise.",

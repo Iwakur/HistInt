@@ -60,9 +60,15 @@ $location = $data['location'] ?? '';
 $character = $data['character'] ?? '';
 $image = $data['image'] ?? '';
 $music = $data['music'] ?? '';
+$sceneStyle = $data['styles'] ?? '';
 $textBlocks = $data['text'] ?? [];
 $choices = $data['choices'] ?? [];
 $pageTitle = $title . ' | HistInt';
+
+// Load the mood stylesheet requested by the scene JSON on top of the base styles.
+if (!is_string($sceneStyle) || !is_file(__DIR__ . '/' . ltrim($sceneStyle, '/'))) {
+    $sceneStyle = '';
+}
 
 require __DIR__ . '/includes/header.php';
 ?>

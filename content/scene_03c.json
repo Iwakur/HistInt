@@ -1,34 +1,35 @@
 {
-    "id": "scene_01",
-    "act": "Acte II",
-    "title": "Le duel à l'entrée du village",
-    "subtitle": "LA FORÊT DE VALDREMOR",
-    "location": "Thornwick",
-    "character": "Kael",
-    "mood": "fire",
-    "image": "assets/images/scene_03c.jpg",
-    "music": "assets/audio/scene_03c.mp3",
-    "text": [
-        "Épée en main, tu retournes vers Mira. L'un des encapuchonnés te barre le chemin, immobile au milieu de la rue en feu. Il dégaine lentement une lame courbe qui siffle dans l'air brûlant. Son regard est vide, mécanique. C'est ton premier vrai combat et tu le sais."
-    ],
-    "choices": [
-        {
-            "id": "choice_a",
-            "label": "A",
-            "text": "Attaquer en premier avec l'épée noire",
-            "target": "scene_04g"
-        },
-        {
-            "id": "choice_b",
-            "label": "B",
-            "text": "Tenter d'intimider en brandissant l'épée",
-            "target": "scene_04h"
-        },
-        {
-            "id": "choice_c",
-            "label": "C",
-            "text": "Esquiver sur le côté et courir jusqu'à Mira",
-            "target": "scene_04i"
-        }
-    ]
+  "id": "scene_03c",
+  "act": "Acte II",
+  "title": "Le duel à l'entrée du village",
+  "subtitle": "LA FORÊT DE VALDREMOR",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "fire",
+  "styles": "assets/css/moods/fire_style.css",
+  "image": "assets/images/scene_03c.jpg",
+  "music": "assets/audio/fire.mp3",
+  "text": [
+    "Épée en main, tu retournes vers Mira. L'un des encapuchonnés te barre le chemin, immobile au milieu de la rue en feu. Il dégaine lentement une lame courbe qui siffle dans l'air brûlant. Son regard est vide, mécanique. C'est ton premier vrai combat et tu le sais."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Attaquer en premier avec l'épée noire",
+      "target": "scene_04g"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Tenter d'intimider en brandissant l'épée",
+      "target": "scene_04h"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Esquiver sur le côté et courir jusqu'à Mira",
+      "target": "scene_04i"
+    }
+  ]
 }

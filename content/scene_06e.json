@@ -1,0 +1,37 @@
+{
+  "id": "scene_06e",
+  "act": "Acte V",
+  "title": "Le poids du médaillon",
+  "subtitle": "La vérité sur le père",
+  "location": "Relais de chasse",
+  "character": "Kael",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
+  "image": "",
+  "music": "assets/audio/destiny.mp3",
+  "text": [
+    "Quand tu poses le médaillon dans la paume de Mira, elle cesse de respirer pendant une seconde, comme si un souvenir brutal venait de remonter.",
+    "Elle reconnaît immédiatement le symbole de la Confrérie et admet que Daren cherchait depuis longtemps à cacher cet objet à tous les regards.",
+    "Tu comprends qu'elle sait bien plus qu'elle ne t'a jamais dit."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Lui demander d'expliquer enfin toute l'histoire",
+      "target": "scene_07d"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Lui demander pourquoi elle t'a caché cela jusqu'ici",
+      "target": "scene_07e"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "L'accuser de t'avoir menti depuis le début",
+      "target": "scene_07f"
+    }
+  ]
+}

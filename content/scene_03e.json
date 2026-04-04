@@ -1,34 +1,35 @@
 {
-    "id": "scene_03e",
-    "act": "Acte II",
-    "title": "Les ruelles de Thornwick",
-    "subtitle": "LA FORÊT DE VALDREMOR",
-    "location": "Thornwick",
-    "character": "Kael",
-    "mood": "fire",
-    "image": "assets/images/scene_03e.jpg",
-    "music": "assets/audio/scene_03e.mp3",
-    "text": [
-        "Tu zigzagues dans les ruelles sombres, les pavés glissants sous tes pieds. L'encapuchonné aux yeux rouges te suit, silencieux, sans courir — comme s'il savait déjà où tu allais. Tu débouches dans une impasse. Derrière toi, des pas lents. Devant toi, un vieux puits de pierre."
-    ],
-    "choices": [
-        {
-            "id": "choice_a",
-            "label": "A",
-            "text": "Descendre dans le puits sans réfléchir",
-            "target": "scene_04m"
-        },
-        {
-            "id": "choice_b",
-            "label": "B",
-            "text": "Faire volte-face et affronter la créature",
-            "target": "scene_04n"
-        },
-        {
-            "id": "choice_c",
-            "label": "C",
-            "text": "Lancer une pierre contre un volet pour créer une diversion",
-            "target": "scene_04o"
-        }
-    ]
+  "id": "scene_03e",
+  "act": "Acte II",
+  "title": "Les ruelles de Thornwick",
+  "subtitle": "LA FORÊT DE VALDREMOR",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "fire",
+  "styles": "assets/css/moods/fire_style.css",
+  "image": "assets/images/scene_03e.jpg",
+  "music": "assets/audio/fire.mp3",
+  "text": [
+    "Tu zigzagues dans les ruelles sombres, les pavés glissants sous tes pieds. L'encapuchonné aux yeux rouges te suit, silencieux, sans courir — comme s'il savait déjà où tu allais. Tu débouches dans une impasse. Derrière toi, des pas lents. Devant toi, un vieux puits de pierre."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Descendre dans le puits sans réfléchir",
+      "target": "scene_04m"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Faire volte-face et affronter la créature",
+      "target": "scene_04n"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Lancer une pierre contre un volet pour créer une diversion",
+      "target": "scene_04o"
+    }
+  ]
 }

@@ -6,8 +6,9 @@
   "location": "Thornwick",
   "character": "Kael",
   "mood": "fire",
+  "styles": "assets/css/moods/fire_style.css",
   "image": "assets/images/scene_01.jpg",
-  "music": "assets/audio/scene_01.mp3",
+  "music": "assets/audio/fire.mp3",
   "text": [
     "Tu es Kael, jeune forgeron du village de Thornwick.",
     "Cette nuit, des silhouettes encapuchonnées ont mis le feu aux granges.",

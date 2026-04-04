@@ -5,9 +5,10 @@
   "subtitle": "Thornwick",
   "location": "Thornwick",
   "character": "Kael",
-  "mood": "confrontation",
-  "image": "assets/images/scene_04n.jpg",
-  "music": "assets/audio/scene_04n.mp3",
+  "mood": "tension",
+  "styles": "assets/css/moods/tension_style.css",
+  "image": "",
+  "music": "assets/audio/tension.mp3",
   "text": [
     "Tu fais volte-face. L'encapuchonné est à deux mètres. Ses yeux rouges ne cillent pas.",
     "Tu n'as pas d'arme — juste tes poings et l'adrénaline. Il lève une main et dit : \"Ne fais pas ça.\"",

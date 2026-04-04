@@ -6,8 +6,9 @@
   "location": "Forêt de Valdremor",
   "character": "Kael",
   "mood": "stealth",
-  "image": "assets/images/scene_05h.jpg",
-  "music": "assets/audio/scene_05h.mp3",
+  "styles": "assets/css/moods/stealth_style.css",
+  "image": "",
+  "music": "assets/audio/stealth.mp3",
   "text": [
     "Tu descends silencieusement de l'arbre et tu suis la procession à distance, de tronc en tronc.",
     "Après une heure de marche, les encapuchonnés arrivent devant une porte de pierre encastrée dans une falaise — invisible depuis un chemin normal.",

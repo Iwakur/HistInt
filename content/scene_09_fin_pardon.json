@@ -5,9 +5,10 @@
   "subtitle": "Ambiguë",
   "location": "Tour de Sel",
   "character": "Kael",
-  "mood": "ambiguous",
-  "image": "assets/images/scene_09_fin_pardon.jpg",
-  "music": "assets/audio/scene_09_fin_pardon.mp3",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
+  "image": "assets/images/fin 2.jpg",
+  "music": "assets/audio/destiny.mp3",
   "text": [
     "Tu parles. Debout dans la cour de la Tour de Sel, face à l'armée de la Confrérie, tu révèles tout ce que tu as appris sur ton père — comment il les a trahis non par lâcheté mais par amour.",
     "Comment il a tout sacrifié. Varn t'écoute, immobile. Un silence de plomb. Puis il dit à voix basse : \"Retraitez.\"",

@@ -1,0 +1,37 @@
+{
+  "id": "scene_07c",
+  "act": "Acte VI",
+  "title": "Le médaillon sur la pierre",
+  "subtitle": "Le choix final",
+  "location": "Tour de Sel",
+  "character": "Kael",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
+  "image": "",
+  "music": "assets/audio/destiny.mp3",
+  "text": [
+    "À peine le médaillon touche-t-il la table que le sel cristallisé sur les murs se met à vibrer. Une lumière bleue se répand dans la pièce.",
+    "La Veuve Grise recule d'un pas. 'Il reconnaît enfin son gardien', murmure-t-elle. Le Sceau, le médaillon et ton sang répondent à la même force.",
+    "Tu ne peux plus prétendre que tout cela ne te concerne pas. Il faut désormais choisir quoi faire de ce pouvoir."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Accepter ton rôle et apprendre à porter le Sceau",
+      "target": "scene_08a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Chercher à te libérer du Sceau coûte que coûte",
+      "target": "scene_08b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Demander s'il existe une troisième voie",
+      "target": "scene_08c"
+    }
+  ]
+}

@@ -5,9 +5,10 @@
   "subtitle": "Thornwick",
   "location": "Thornwick",
   "character": "Kael",
-  "mood": "revelation",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
   "image": "assets/images/scene_04g.jpg",
-  "music": "assets/audio/scene_04g.mp3",
+  "music": "assets/audio/destiny.mp3",
   "text": [
     "En attaquant, l'épée noire s'embrase soudainement d'une flamme froide et bleue — aucune chaleur, juste une lumière glaciale.",
     "L'encapuchonné fait un bond en arrière, visiblement terrorisé. \"L'Héritier... il est l'Héritier !\" Il s'enfuit en hurlant, abandonnant sa lame courbe sur les pavés."

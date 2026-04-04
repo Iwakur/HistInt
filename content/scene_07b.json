@@ -5,9 +5,10 @@
   "subtitle": "La Tour de Sel",
   "location": "Tour de Sel",
   "character": "Kael",
-  "mood": "revelation",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
   "image": "assets/images/scene_07b.jpg",
-  "music": "assets/audio/scene_07b.mp3",
+  "music": "assets/audio/destiny.mp3",
   "text": [
     "La Veuve Grise ferme les yeux. \"La Confrérie des Cendres a été fondée il y a cent ans par des mages qui voulaient ouvrir la porte entre les vivants et les morts — pour gouverner les deux mondes.",
     "Ton père les a rejoints jeune, convaincu par leurs mensonges. Puis il a compris. Il a tout trahi pour te mettre au monde libre.\""

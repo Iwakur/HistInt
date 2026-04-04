@@ -5,9 +5,10 @@
   "subtitle": "Le relais",
   "location": "Le relais",
   "character": "Kael",
-  "mood": "revelation",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
   "image": "assets/images/scene_06d.jpg",
-  "music": "assets/audio/scene_06d.mp3",
+  "music": "assets/audio/destiny.mp3",
   "text": [
     "Mira écoute tout — le message, la Tour, la Veuve Grise — sans t'interrompre.",
     "Quand tu as fini, elle se lève lentement, appuie deux doigts sur son tatouage de corbeau comme un geste rituel, et dit d'une voix posée : \"Ça fait des années que j'attends de te trouver. Ton père... était le fondateur de la Confrérie des Cendres. Avant de la trahir.\""

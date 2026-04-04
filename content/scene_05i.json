@@ -5,9 +5,10 @@
   "subtitle": "Thornwick",
   "location": "Thornwick",
   "character": "Kael",
-  "mood": "revelation",
-  "image": "assets/images/scene_05i.jpg",
-  "music": "assets/audio/scene_05i.mp3",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
+  "image": "",
+  "music": "assets/audio/destiny.mp3",
   "text": [
     "Tu ramasses la lame courbe et coures jusqu'à l'endroit où tu as laissé Mira.",
     "Elle est là, adossée contre un mur, consciente. Quand elle voit l'épée noire dans ta main gauche et la lame courbe dans ta droite, ses yeux s'écarquillent.",

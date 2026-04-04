@@ -5,9 +5,10 @@
   "subtitle": "La Tour de Sel",
   "location": "Tour de Sel",
   "character": "Kael",
-  "mood": "power",
+  "mood": "fire",
+  "styles": "assets/css/moods/fire_style.css",
   "image": "assets/images/scene_08a.jpg",
-  "music": "assets/audio/scene_08a.mp3",
+  "music": "assets/audio/fire.mp3",
   "text": [
     "Tu t'entraînes pendant trois jours dans la Tour de Sel. Le pouvoir en toi prend forme — une flamme froide que tu apprends à projeter dans tes mains, dans ton regard, dans ta voix.",
     "La quatrième nuit, les sentinelles sonnent l'alarme. La Confrérie encercle la Tour. Tu sors dans la cour.",

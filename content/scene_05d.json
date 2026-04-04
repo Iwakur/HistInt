@@ -5,9 +5,10 @@
   "subtitle": "Les hameaux alentour",
   "location": "Hameaux alentour",
   "character": "Kael",
-  "mood": "quest",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
   "image": "assets/images/scene_05d.jpg",
-  "music": "assets/audio/scene_05d.mp3",
+  "music": "assets/audio/destiny.mp3",
   "text": [
     "Tu cherches pendant des heures dans les hameaux alentour.",
     "Au bord d'une route boueuse, une vieille femme vend des herbes médicinales depuis une charrette bancale.",

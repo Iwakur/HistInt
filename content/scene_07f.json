@@ -1,0 +1,37 @@
+{
+  "id": "scene_07f",
+  "act": "Acte VI",
+  "title": "Le refus de croire",
+  "subtitle": "Le choix final",
+  "location": "Relais de chasse",
+  "character": "Kael",
+  "mood": "tension",
+  "styles": "assets/css/moods/tension_style.css",
+  "image": "",
+  "music": "assets/audio/tension.mp3",
+  "text": [
+    "Tu rejettes ses paroles avec colère, mais Mira tient bon. Elle te montre les preuves, les lettres, les symboles, et même l'écho du médaillon répond à ton sang.",
+    "Plus tu refuses, plus la vérité se referme sur toi. Ce n'est plus une question de croire ou non, seulement de choisir comment vivre avec cela.",
+    "Au bout du silence, trois chemins restent ouverts devant toi."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Céder et accepter enfin le rôle du Sceau",
+      "target": "scene_08a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Persister à vouloir t'arracher à ce destin",
+      "target": "scene_08b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Chercher une solution qui n'appartienne à personne d'autre",
+      "target": "scene_08c"
+    }
+  ]
+}

@@ -6,15 +6,15 @@
   "location": "Dans la forêt de Valdremor",
   "character": "Kael",
   "mood": "fire",
+  "styles": "assets/css/moods/fire_style.css",
   "image": "assets/images/scene_03d.jpg",
-  "music": "assets/audio/scene_03d.mp3",
+  "music": "assets/audio/fire.mp3",
   "text": [
     "Tu fuis seul dans la forêt de Valdremor. La culpabilité de laisser",
     "Mira derrière te ronge à chaque pas. Après une heure de course",
     "dans le noir, tu tombes sur un campement abandonné en urgence.",
     "Un feu encore chaud, un repas renversé, une sacoche oubliée.",
     "Quelqu'un était là il y a moins d'une heure."
-
   ],
   "choices": [
     {

@@ -5,9 +5,10 @@
   "subtitle": "Thornwick",
   "location": "Thornwick",
   "character": "Kael",
-  "mood": "underground",
-  "image": "assets/images/scene_04m.jpg",
-  "music": "assets/audio/scene_04m.mp3",
+  "mood": "stealth",
+  "styles": "assets/css/moods/stealth_style.css",
+  "image": "",
+  "music": "assets/audio/stealth.mp3",
   "text": [
     "Tu descends à la corde, les pieds dans le vide, jusqu'à toucher une dalle de pierre sèche — le puits est à sec.",
     "Mais il n'est pas vide. Une galerie s'ouvre dans le flanc, à peine assez large pour ramper. Des torches éteintes y sont fixées.",

@@ -6,8 +6,9 @@
   "location": "forêt de Valdremor",
   "character": "Kael",
   "mood": "fire",
+  "styles": "assets/css/moods/fire_style.css",
   "image": "assets/images/scene_03f.jpg",
-  "music": "assets/audio/scene_03f.mp3",
+  "music": "assets/audio/fire.mp3",
   "text": [
     "Tu ne bouges pas. L'encapuchonné s'avance lentement, sans hâte.",
     "À trois mètres de toi, il s'arrête. Sa voix sort de sous le",

@@ -5,9 +5,10 @@
   "subtitle": "La Tour de Sel",
   "location": "Tour de Sel",
   "character": "Kael",
-  "mood": "choice",
-  "image": "assets/images/scene_08c.jpg",
-  "music": "assets/audio/scene_08c.mp3",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
+  "image": "",
+  "music": "assets/audio/destiny.mp3",
   "text": [
     "La Veuve Grise hésite longuement avant de répondre. \"Il existe une possibilité.",
     "Si le chef de la Confrérie renonce volontairement à son but, le rituel d'ouverture de la porte est brisé pour toujours.",

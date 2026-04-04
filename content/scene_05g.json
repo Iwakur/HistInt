@@ -5,9 +5,10 @@
   "subtitle": "La forêt de Valdremor",
   "location": "Forêt de Valdremor",
   "character": "Kael",
-  "mood": "mystery",
-  "image": "assets/images/scene_05g.jpg",
-  "music": "assets/audio/scene_05g.mp3",
+  "mood": "stealth",
+  "styles": "assets/css/moods/stealth_style.css",
+  "image": "",
+  "music": "assets/audio/stealth.mp3",
   "text": [
     "Tu te faufiles entre les arbres jusqu'à la cage de métal. Les encapuchonnés sont absorbés par leur rituel — dos tournés.",
     "Le verrou est simple. Tu l'ouvres. La créature ailée sort sans un bruit et se pose sur ton épaule comme un oiseau apprivoisé.",

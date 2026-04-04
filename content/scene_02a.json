@@ -1,34 +1,35 @@
 {
-    "id": "scene_02a",
-    "act": "Acte I",
-    "title": "Mira sauvée",
-    "subtitle": "La nuit du départ",
-    "location": "Thornwick",
-    "character": "Kael",
-    "mood": "fire",
-    "image": "assets/images/scene_02a.jpg",
-    "music": "assets/audio/scene_01.mp3",
-    "text": [
-        "Tu soulèves la poutre au prix d'un effort surhumain, les muscles en feu.\nMira est blessée à la jambe mais vivante. Elle t'attrape le bras et te glisse à l'oreille : \"Ils cherchaient... le médaillon de ton père.\" Puis elle perd connaissance dans tes bras.\nSa jambe saigne abondamment."
-    ],
-    "choices": [
-        {
-            "id": "choice_a",
-            "label": "A",
-            "text": "Emporter Mira sur ton dos et fuir vers la forêt  ",
-            "target": "scene_03a"
-        },
-        {
-            "id": "choice_b",
-            "label": "B",
-            "text": "La poser en sécurité et aller chercher le médaillon",
-            "target": "scene_03b"
-        },
-        {
-            "id": "choice_c",
-            "label": "C",
-            "text": "Chercher un autre villageois pour t'aider à la porter",
-            "target": "scene_03g"
-        }
-    ]
+  "id": "scene_02a",
+  "act": "Acte I",
+  "title": "Mira sauvée",
+  "subtitle": "La nuit du départ",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "fire",
+  "styles": "assets/css/moods/fire_style.css",
+  "image": "assets/images/scene_02a.jpg",
+  "music": "assets/audio/fire.mp3",
+  "text": [
+    "Tu soulèves la poutre au prix d'un effort surhumain, les muscles en feu.\nMira est blessée à la jambe mais vivante. Elle t'attrape le bras et te glisse à l'oreille : \"Ils cherchaient... le médaillon de ton père.\" Puis elle perd connaissance dans tes bras.\nSa jambe saigne abondamment."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Emporter Mira sur ton dos et fuir vers la forêt  ",
+      "target": "scene_03a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "La poser en sécurité et aller chercher le médaillon",
+      "target": "scene_03b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Chercher un autre villageois pour t'aider à la porter",
+      "target": "scene_03g"
+    }
+  ]
 }

@@ -5,9 +5,10 @@
   "subtitle": "Thornwick",
   "location": "Thornwick",
   "character": "Kael",
-  "mood": "discovery",
-  "image": "assets/images/scene_04s.jpg",
-  "music": "assets/audio/scene_04s.mp3",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
+  "image": "",
+  "music": "assets/audio/destiny.mp3",
   "text": [
     "Tu arraches la lettre et bondis hors de la forge au moment où le toit s'effondre dans un fracas de braises.",
     "La chaleur te gifle dans le dos. Dix mètres plus loin, à bout de souffle, tu brises le cachet de cire noire — une cendre dans un cercle.",

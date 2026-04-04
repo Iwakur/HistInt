@@ -1,0 +1,37 @@
+{
+  "id": "scene_06i",
+  "act": "Acte V",
+  "title": "Le mot de passe du corbeau",
+  "subtitle": "La vérité sur le père",
+  "location": "Route de Valdremor",
+  "character": "Kael",
+  "mood": "cold",
+  "styles": "assets/css/moods/cold_style.css",
+  "image": "",
+  "music": "assets/audio/cold.mp3",
+  "text": [
+    "Tu achètes des herbes et la vieille femme glisse sous sa voix un mot que ton père te faisait répéter enfant : 'le sel garde la mémoire'.",
+    "Quand tu réponds sans réfléchir, son regard change. Elle sait désormais qui tu es.",
+    "Elle t'offre un remède pour Mira et une vérité à choisir : celle du père, celle de la Confrérie, ou celle qu'on n'ose jamais demander."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Choisir d'entendre la vérité sur Daren",
+      "target": "scene_07a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Choisir d'entendre la vérité sur la Confrérie",
+      "target": "scene_07b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Choisir d'entendre ce qu'on dit encore de ton père",
+      "target": "scene_07g"
+    }
+  ]
+}

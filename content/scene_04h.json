@@ -5,9 +5,10 @@
   "subtitle": "Thornwick",
   "location": "Thornwick",
   "character": "Kael",
-  "mood": "standoff",
-  "image": "assets/images/scene_04h.jpg",
-  "music": "assets/audio/scene_04h.mp3",
+  "mood": "tension",
+  "styles": "assets/css/moods/tension_style.css",
+  "image": "",
+  "music": "assets/audio/tension.mp3",
   "text": [
     "Tu brandir l'épée noire à deux mains, les bras tendus.",
     "L'encapuchonné s'arrête. Son regard vide glisse sur la lame, s'y attarde.",

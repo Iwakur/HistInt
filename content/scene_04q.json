@@ -5,9 +5,10 @@
   "subtitle": "Thornwick",
   "location": "Thornwick",
   "character": "Kael",
-  "mood": "escape",
-  "image": "assets/images/scene_04q.jpg",
-  "music": "assets/audio/scene_04q.mp3",
+  "mood": "tension",
+  "styles": "assets/css/moods/tension_style.css",
+  "image": "",
+  "music": "assets/audio/tension.mp3",
   "text": [
     "Tu frappes sans prévenir — un coup d'épaule, toute ta masse, droit dans la poitrine de l'encapuchonné.",
     "Il recule d'un pas, surpris. C'est tout ce qu'il te faut. Tu cours. La ruelle, puis la suivante, puis les champs, puis la lisière de la forêt.",

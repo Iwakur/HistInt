@@ -5,9 +5,10 @@
   "subtitle": "La forêt de Valdremor",
   "location": "Forêt de Valdremor",
   "character": "Kael",
-  "mood": "escape",
-  "image": "assets/images/scene_05e.jpg",
-  "music": "assets/audio/scene_05e.mp3",
+  "mood": "tension",
+  "styles": "assets/css/moods/tension_style.css",
+  "image": "",
+  "music": "assets/audio/tension.mp3",
   "text": [
     "Tu cours. Seul, sans destination claire, juste l'instinct de mettre de la distance entre toi et Thornwick.",
     "Au bout d'une heure, épuisé, tu t'effondres au pied d'un chêne géant.",

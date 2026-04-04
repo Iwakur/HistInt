@@ -5,9 +5,10 @@
   "subtitle": "Thornwick",
   "location": "Thornwick",
   "character": "Kael",
-  "mood": "revelation",
-  "image": "assets/images/scene_05k.jpg",
-  "music": "assets/audio/scene_05k.mp3",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
+  "image": "",
+  "music": "assets/audio/destiny.mp3",
   "text": [
     "Tu examines l'épée noire dans la lumière des flammes mourantes. Le métal ne réfléchit rien — ni feu, ni ciel.",
     "Il absorbe tout. Et sur la lame, visible maintenant que tu regardes vraiment, une inscription en lettres minuscules gravées dans l'acier : \"Pour Kael. Quand tout brûlera sauf toi.\"",

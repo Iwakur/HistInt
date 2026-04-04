@@ -5,9 +5,10 @@
   "subtitle": "Thornwick",
   "location": "Thornwick",
   "character": "Kael",
-  "mood": "escape",
-  "image": "assets/images/scene_04o.jpg",
-  "music": "assets/audio/scene_04o.mp3",
+  "mood": "tension",
+  "styles": "assets/css/moods/tension_style.css",
+  "image": "",
+  "music": "assets/audio/tension.mp3",
   "text": [
     "Tu ramasses un pavé et le lances contre le volet d'une fenêtre à l'étage. Le bruit claque dans la ruelle.",
     "L'encapuchonné tourne la tête une fraction de seconde — ça suffit. Tu bondis sur le mur de briques, tes doigts trouvent une prise, tu grimpes comme tu l'as fait cent fois enfant dans ce quartier.",

@@ -5,9 +5,10 @@
   "subtitle": "Inattendue",
   "location": "Crypte de Valdremor",
   "character": "Kael",
-  "mood": "unexpected",
-  "image": "assets/images/scene_09_fin_crypte.jpg",
-  "music": "assets/audio/scene_09_fin_crypte.mp3",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
+  "image": "assets/images/fin 4.jpg",
+  "music": "assets/audio/destiny.mp3",
   "text": [
     "Tu descends dans la Crypte de Valdremor. Des couloirs qui bougent, des pièges anciens, des créatures faites d'ombre pure.",
     "Au cœur de la crypte, après des heures d'errance, le Grimoire flotte au-dessus d'un autel de pierre noire.",

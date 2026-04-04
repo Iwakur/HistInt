@@ -5,9 +5,10 @@
   "subtitle": "Thornwick",
   "location": "Thornwick",
   "character": "Kael",
-  "mood": "relief",
-  "image": "assets/images/scene_04i.jpg",
-  "music": "assets/audio/scene_04i.mp3",
+  "mood": "cold",
+  "styles": "assets/css/moods/cold_style.css",
+  "image": "",
+  "music": "assets/audio/cold.mp3",
   "text": [
     "Tu plonges sur le côté au moment où la lame courbe siffle à l'endroit où ta tête se trouvait.",
     "Tu roules sur les pavés brûlants, te relèves et cours. L'encapuchonné ne te suit pas — il reste là, debout dans la rue en feu, comme s'il avait accompli sa mission.",

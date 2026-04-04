@@ -1,0 +1,37 @@
+{
+  "id": "scene_06g",
+  "act": "Acte V",
+  "title": "La vendeuse au corbeau",
+  "subtitle": "La vérité sur le père",
+  "location": "Route de Valdremor",
+  "character": "Kael",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
+  "image": "",
+  "music": "assets/audio/destiny.mp3",
+  "text": [
+    "Lorsque tu prononces le nom de Daren, la vieille femme referme aussitôt sa main sur ta monnaie et t'invite derrière sa charrette.",
+    "Elle t'avoue servir la Veuve Grise depuis des années et dit que ton père a laissé plus d'alliés que d'ennemis sur la route de sel.",
+    "Si tu veux des réponses, elle peut te parler de Daren, de la Confrérie, ou de la dernière rumeur qui circule à son sujet."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "L'interroger sur le rôle exact de ton père",
+      "target": "scene_07a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Lui demander ce qu'elle sait de la Confrérie des Cendres",
+      "target": "scene_07b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Lui demander si ton père est réellement mort",
+      "target": "scene_07g"
+    }
+  ]
+}

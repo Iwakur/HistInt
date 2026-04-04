@@ -5,9 +5,10 @@
   "subtitle": "Thornwick",
   "location": "Thornwick",
   "character": "Kael",
-  "mood": "revelation",
-  "image": "assets/images/scene_04r.jpg",
-  "music": "assets/audio/scene_04r.mp3",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
+  "image": "",
+  "music": "assets/audio/destiny.mp3",
   "text": [
     "Peu importe qui te pose la question — l'encapuchonné, Aldric, la femme en cape grise, ou la voix dans la forêt — la réponse est la même.",
     "Un nom revient, prononcé avec crainte ou avec fierté selon qui parle : la Confrérie des Cendres.",

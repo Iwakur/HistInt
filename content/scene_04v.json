@@ -5,9 +5,10 @@
   "subtitle": "Forêt de Valdremor",
   "location": "Forêt de Valdremor",
   "character": "Kael",
-  "mood": "meeting",
-  "image": "assets/images/scene_04v.jpg",
-  "music": "assets/audio/scene_04v.mp3",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
+  "image": "",
+  "music": "assets/audio/destiny.mp3",
   "text": [
     "Tu la suis sans poser de questions. Elle marche vite, sans bruit, comme quelqu'un qui connaît chaque racine de cette forêt.",
     "Après vingt minutes, elle s'arrête devant un arbre creux et en sort une sacoche cachée.",

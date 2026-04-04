@@ -1,0 +1,37 @@
+{
+  "id": "scene_06h",
+  "act": "Acte V",
+  "title": "La piste de la charrette",
+  "subtitle": "La vérité sur le père",
+  "location": "Lisière de la forêt",
+  "character": "Kael",
+  "mood": "stealth",
+  "styles": "assets/css/moods/stealth_style.css",
+  "image": "",
+  "music": "assets/audio/stealth.mp3",
+  "text": [
+    "Tu suis la vieille femme à distance jusqu'à une chapelle effondrée où des corbeaux de pierre gardent l'entrée.",
+    "À l'intérieur, des lettres de Daren et des cartes de la région sont cachées dans un coffre de sel. La vieille femme te surprend, mais ne semble pas fâchée.",
+    "Elle dit simplement que si tu es là, alors le moment est venu d'entendre la vérité."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Lire ce que Daren a laissé sur lui-même",
+      "target": "scene_07a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Lire les notes concernant la Confrérie",
+      "target": "scene_07b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Chercher une lettre qui parle de son sort final",
+      "target": "scene_07g"
+    }
+  ]
+}

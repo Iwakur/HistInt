@@ -5,9 +5,10 @@
   "subtitle": "Forêt de Valdremor",
   "location": "Forêt de Valdremor",
   "character": "Kael",
-  "mood": "mystery",
-  "image": "assets/images/scene_04l.jpg",
-  "music": "assets/audio/scene_04l.mp3",
+  "mood": "stealth",
+  "styles": "assets/css/moods/stealth_style.css",
+  "image": "",
+  "music": "assets/audio/stealth.mp3",
   "text": [
     "Tu appelles doucement. Silence. Tu appelles encore, un peu plus fort cette fois.",
     "Un froissement dans les feuilles au-dessus de toi. Puis une voix d'enfant — ou quelque chose qui y ressemble — qui descend des branches : \"Tu es seul ? Tu fuis la cendre ?\"",

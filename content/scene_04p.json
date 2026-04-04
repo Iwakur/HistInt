@@ -5,9 +5,10 @@
   "subtitle": "Thornwick",
   "location": "Thornwick",
   "character": "Kael",
-  "mood": "revelation",
-  "image": "assets/images/scene_04p.jpg",
-  "music": "assets/audio/scene_04p.mp3",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
+  "image": "",
+  "music": "assets/audio/destiny.mp3",
   "text": [
     "\"De quoi s'agit-il ?\" dis-tu d'une voix qui ne tremble pas autant que tu le voudrais.",
     "L'encapuchonné incline légèrement la tête. \"Ton père Daren a pris quelque chose qui appartenait à la Confrérie. Il a prétendu le détruire. Il ne l'a pas détruit. Il te l'a donné.",

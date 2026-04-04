@@ -5,9 +5,10 @@
   "subtitle": "La Tour de Sel",
   "location": "Tour de Sel",
   "character": "Kael",
-  "mood": "meeting",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
   "image": "assets/images/scene_06a.jpg",
-  "music": "assets/audio/scene_06a.mp3",
+  "music": "assets/audio/destiny.mp3",
   "text": [
     "Les gardes abaissent le pont-levis en entendant ce nom. Vous traversez des couloirs humides où le sel cristallise sur les pierres.",
     "Dans une grande salle haute, une vieille femme aux cheveux blancs comme neige est assise sur un trône de pierre simple.",

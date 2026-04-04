@@ -6,8 +6,9 @@
   "location": "relais de chasse abandonné",
   "character": "Kael",
   "mood": "fire",
+  "styles": "assets/css/moods/fire_style.css",
   "image": "assets/images/scene_04a.jpg",
-  "music": "assets/audio/scene_01.mp3",
+  "music": "assets/audio/fire.mp3",
   "text": [
     "Vous atteignez un vieux relais de chasse abandonné. À l'intérieur, une carte griffonnée à la hâte et un message écrit à la va-vite : « Si tu lis ceci, Thornwick est tombé. Va à la Tour de Sel. Demande la Veuve Grise. Elle sait tout ce que je ne pouvais pas te dire. » La signature : ton père, Daren."
   ],

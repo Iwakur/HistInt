@@ -5,9 +5,10 @@
   "subtitle": "Thornwick",
   "location": "Thornwick",
   "character": "Kael",
-  "mood": "reunion",
-  "image": "assets/images/scene_04e.jpg",
-  "music": "assets/audio/scene_04e.mp3",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
+  "image": "",
+  "music": "assets/audio/destiny.mp3",
   "text": [
     "Tu rebrousses chemin à travers les flammes, le médaillon au poing.",
     "Partout où tu passes, le feu semble hésiter, reculer légèrement.",

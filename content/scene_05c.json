@@ -1,0 +1,37 @@
+{
+  "id": "scene_05c",
+  "act": "Acte IV",
+  "title": "La carte de Daren",
+  "subtitle": "La Tour de Sel",
+  "location": "Relais de chasse",
+  "character": "Kael",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
+  "image": "",
+  "music": "assets/audio/destiny.mp3",
+  "text": [
+    "Tu déplies la carte laissée par Daren et repères un ancien sentier de sel qui contourne les marais et les patrouilles.",
+    "Des annotations pressées indiquent trois approches possibles de la Tour : la porte principale, un passage dissimulé dans les fondations, ou un signe de reconnaissance à montrer aux gardes.",
+    "Pour la première fois depuis l'incendie, tu avances avec autre chose que la panique : un plan."
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Suivre la route jusqu'à la porte principale et appeler la Veuve Grise",
+      "target": "scene_06a"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Utiliser le passage dissimulé indiqué sur la carte",
+      "target": "scene_06b"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Approcher la Tour en montrant le médaillon ou l'épée noire",
+      "target": "scene_06c"
+    }
+  ]
+}

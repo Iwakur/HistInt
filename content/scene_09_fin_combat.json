@@ -5,9 +5,10 @@
   "subtitle": "Victoire",
   "location": "Tour de Sel",
   "character": "Kael",
-  "mood": "victory",
-  "image": "assets/images/scene_09_fin_combat.jpg",
-  "music": "assets/audio/scene_09_fin_combat.mp3",
+  "mood": "destiny",
+  "styles": "assets/css/moods/destiny_style.css",
+  "image": "assets/images/fin 1.jpg",
+  "music": "assets/audio/destiny.mp3",
   "text": [
     "Le combat est brutal. Varn est rapide, expérimenté, implacable. Mais le Sceau en toi pulse de plus en plus fort à chaque blessure.",
     "Au moment décisif, la flamme froide explose de ta lame et désarme ton oncle d'un seul coup. Son épée vole dans les airs. Son masque tombe.",

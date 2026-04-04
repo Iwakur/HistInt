@@ -1,39 +1,40 @@
 {
-    "id": "scene_03b",
-    "act": "Acte II",
-    "title": "Le médaillon du père",
-    "subtitle": "LA FORÊT DE VALDREMOR",
-    "location": "Thornwick",
-    "character": "Kael",
-    "mood": "fire",
-    "image": "assets/images/scene_03b.jpg",
-    "music": "assets/audio/scene_03b.mp3",
-    "text": [
-        " Tu cours jusqu'à ta maison en flammes. Dans la chambre de ton",
-        "père, sous un faux plancher que tu n'avais jamais remarqué, tu",
-        "trouves un médaillon en obsidienne gravé d'un symbole que tu ne",
-        "reconnais pas. Au toucher, la chaleur des flammes tout autour",
-        "de toi disparaît pendant quelques secondes. Le feu recule.",
-        ""
-    ],
-    "choices": [
-        {
-            "id": "choice_a",
-            "label": "A",
-            "text": "Fuir avec le médaillon vers la forêt",
-            "target": "scene_04d"
-        },
-        {
-            "id": "choice_b",
-            "label": "B",
-            "text": "Retourner chercher Mira avec le médaillon",
-            "target": "scene_04e"
-        },
-        {
-            "id": "choice_c",
-            "label": "C",
-            "text": "Rester et attendre les encapuchonnés pour comprendre",
-            "target": "scene_04f"
-        }
-    ]
+  "id": "scene_03b",
+  "act": "Acte II",
+  "title": "Le médaillon du père",
+  "subtitle": "LA FORÊT DE VALDREMOR",
+  "location": "Thornwick",
+  "character": "Kael",
+  "mood": "fire",
+  "styles": "assets/css/moods/fire_style.css",
+  "image": "assets/images/scene_03b.jpg",
+  "music": "assets/audio/fire.mp3",
+  "text": [
+    " Tu cours jusqu'à ta maison en flammes. Dans la chambre de ton",
+    "père, sous un faux plancher que tu n'avais jamais remarqué, tu",
+    "trouves un médaillon en obsidienne gravé d'un symbole que tu ne",
+    "reconnais pas. Au toucher, la chaleur des flammes tout autour",
+    "de toi disparaît pendant quelques secondes. Le feu recule.",
+    ""
+  ],
+  "choices": [
+    {
+      "id": "choice_a",
+      "label": "A",
+      "text": "Fuir avec le médaillon vers la forêt",
+      "target": "scene_04d"
+    },
+    {
+      "id": "choice_b",
+      "label": "B",
+      "text": "Retourner chercher Mira avec le médaillon",
+      "target": "scene_04e"
+    },
+    {
+      "id": "choice_c",
+      "label": "C",
+      "text": "Rester et attendre les encapuchonnés pour comprendre",
+      "target": "scene_04f"
+    }
+  ]
 }
