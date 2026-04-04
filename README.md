@@ -1,35 +1,55 @@
 HistInt/
 │
-├── README.md      
-├── index.php              
-├── scene.php        
-├── profiles.php   
+├── README.md
+├── index.php
+├── login.php
+├── logout.php
+├── profile.php
+├── register.php
+├── scene.php
 │
-├── content/              
-│   ├── scene_01.json      
-│   └── scene_02a.json
-│   └── scene_03.....
-│
-├── includes/      
-│   ├── header.php
-│   ├── footer.php
-│   └── functions.php
-│
-├── assets/            
+├── assets/
+│   ├── audio/
+│   │   ├── cold.mp3
+│   │   ├── destiny.mp3
+│   │   ├── fire.mp3
+│   │   ├── stealth.mp3
+│   │   └── tension.mp3
 │   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── script.js
-
-
-
-
-
-
-
-
-
-#TODO: generate the correct project's structure
+│   │   ├── base/
+│   │   │   ├── auth_style.css
+│   │   │   ├── index_style.css
+│   │   │   └── scene_style.css
+│   │   └── moods/
+│   │       ├── cold_style.css
+│   │       ├── destiny_style.css
+│   │       ├── fire_style.css
+│   │       ├── stealth_style.css
+│   │       └── tension_style.css
+│   ├── images/
+│   │   ├── fin 1.jpg
+│   │   ├── fin 2.jpg
+│   │   ├── fin 3.jpg
+│   │   ├── fin 4.jpg
+│   │   ├── scene_01.jpg
+│   │   ├── scene_02a.jpg ... scene_08b.jpg
+│   │   └── TODO: missing generated images listed below
+│   ├── js/
+│   │   └── main.js
+│   └── specials/
+│       └── favicon.png
+│
+├── content/
+│   ├── scene_01.json
+│   ├── scene_02a.json ... scene_08c.json
+│   └── scene_09_fin_{combat,crypte,pardon,sacrifice}.json
+│
+└── includes/
+    ├── config.php
+    ├── db.php
+    ├── footer.php
+    ├── functions.php
+    └── header.php
 
 # TODO: generate missing imgs:
 scene_03g: assets/images/scene_03g.jpg
