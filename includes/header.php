@@ -20,19 +20,19 @@
         <header class="topbar">
             <div class="nav-left">
                 <?php if (isset($previousScene) && $previousScene): ?>
-                    <a class="nav-link" href="scene.php?scene=<?= urlencode($previousScene) ?>&from_back=1">← Back</a>
+                    <a class="nav-link" href="scene.php?scene=<?= urlencode($previousScene) ?>&from_back=1">← Retour</a>
                 <?php else: ?>
-                    <a class="nav-link" href="index.php">Return</a>
+                    <a class="nav-link" href="index.php">Retour</a>
                 <?php endif; ?>
             </div>
 
             <div class="nav-center">
-                <a class="nav-title" href="index.php">About</a>
+                <a class="nav-title" href="index.php">À propos</a>
             </div>
 
             <div class="nav-right">
-                <a class="nav-link" href="profile.php">Profile</a>
-                <div class="profile-dot" aria-hidden="true"></div>
+                <a class="nav-link" href="profile.php">Profil</a>
+                <!-- <div class="profile-dot" aria-hidden="true"></div> -->
             </div>
         </header>
     <?php endif; ?>

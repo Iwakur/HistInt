@@ -22,7 +22,6 @@ HistInt/
 │       └── script.js
 
 #TODO - Rewrite text, optimisation, comments, polish
-#TODO - implement profile system
 
 
 login messages

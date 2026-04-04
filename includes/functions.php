@@ -14,6 +14,7 @@ function e(string $value): string {
     return htmlspecialchars($value, ENT_QUOTES, 'UTF-8');
 }
 
+
 /**
  * Ensure session is active before auth operations
  * @return void
