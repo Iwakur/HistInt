@@ -94,3 +94,6 @@ scene_07e: assets/images/scene_07e.jpg
 scene_07f: assets/images/scene_07f.jpg
 scene_07g: assets/images/scene_07g.jpg
 scene_08c: assets/images/scene_08c.jpg
+
+-----
+reerad the DB file

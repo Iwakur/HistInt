@@ -44,7 +44,7 @@ require __DIR__ . '/includes/header.php';
 ?>
             <div class="profile-actions">
                 <a href="scene.php?scene=<?= e($user['current_scene'] ?? 'scene_01') ?>" class="btn btn-primary">Reprendre la partie</a>
-                <a href="logout.php" class="btn btn-secondary">Déconnexion</a>
+                <a href="index.php?action=logout" class="btn btn-secondary">Déconnexion</a>
                 <a href="index.php" class="btn btn-secondary">Retour à l'accueil</a>
             </div>
         </div>
