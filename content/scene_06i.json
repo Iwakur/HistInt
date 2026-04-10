@@ -7,7 +7,7 @@
   "character": "Kael",
   "mood": "cold",
   "styles": "assets/css/moods/cold_style.css",
-  "image": "",
+  "image": "assets/images/scene_06i.png",
   "music": "assets/audio/cold.mp3",
   "text": [
     "Tu achètes des herbes et la vieille femme glisse sous sa voix un mot que ton père te faisait répéter enfant : 'le sel garde la mémoire'.",
