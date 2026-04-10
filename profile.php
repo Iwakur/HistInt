@@ -4,6 +4,7 @@ requireLogin();
 
 // Load the connected user before rendering the page.
 $user = currentUser();
+$currentSceneTitle = $user ? (loadScene((string)$user['current_scene'])['title'] ?? $user['current_scene']) : '';
 
 $pageTitle = 'HistInt - Profil';
 $showNavigation = true;
@@ -28,7 +29,7 @@ require __DIR__ . '/includes/header.php';
 
                     <article class="profile-card">
                         <p class="profile-label">Progression</p>
-                        <h2><?= e($user['current_scene']) ?></h2>
+                        <h2><?= e($currentSceneTitle) ?></h2>
                         <p class="profile-copy">Dernière scène sauvegardée.</p>
                     </article>
                 </div>
