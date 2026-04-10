@@ -7,7 +7,7 @@
   "character": "Kael",
   "mood": "stealth",
   "styles": "assets/css/moods/stealth_style.css",
-  "image": "",
+  "image": "assets/images/scene_06b.jpg",
   "music": "assets/audio/stealth.mp3",
   "text": [
     "En suivant les marques de la carte, tu trouves une grille presque noyée dans le sel et la mousse. Derrière, un couloir étroit mène sous la Tour.",

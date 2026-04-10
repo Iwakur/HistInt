@@ -7,7 +7,7 @@
   "character": "Kael",
   "mood": "destiny",
   "styles": "assets/css/moods/destiny_style.css",
-  "image": "",
+  "image": "assets/images/scene_04p.jpg",
   "music": "assets/audio/destiny.mp3",
   "text": [
     "\"De quoi s'agit-il ?\" dis-tu d'une voix qui ne tremble pas autant que tu le voudrais.",

@@ -7,7 +7,7 @@
   "character": "Kael",
   "mood": "destiny",
   "styles": "assets/css/moods/destiny_style.css",
-  "image": "",
+  "image": "assets/images/scene_06c.jpg",
   "music": "assets/audio/destiny.mp3",
   "text": [
     "Tu lèves le médaillon et l'épée noire dans la lumière de l'aube. Les gardes se figent aussitôt, puis échangent un regard inquiet.",

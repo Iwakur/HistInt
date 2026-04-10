@@ -7,7 +7,7 @@
   "character": "Kael",
   "mood": "fire",
   "styles": "assets/css/moods/fire_style.css",
-  "image": "",
+  "image": "assets/images/scene_03g.jpg",
   "music": "assets/audio/fire.mp3",
   "text": [
     "Tu trouves Aldric, le vieux boulanger, caché derrière un tonneau.",

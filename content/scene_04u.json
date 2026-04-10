@@ -7,7 +7,7 @@
   "character": "Kael",
   "mood": "tension",
   "styles": "assets/css/moods/tension_style.css",
-  "image": "",
+  "image": "assets/images/scene_04u.jpg",
   "music": "assets/audio/tension.mp3",
   "text": [
     "Tu ramasses tout — la lettre, la carte, les documents — mais tu prends cinq secondes de trop.",

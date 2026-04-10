@@ -7,7 +7,7 @@
   "character": "Kael",
   "mood": "stealth",
   "styles": "assets/css/moods/stealth_style.css",
-  "image": "",
+  "image": "assets/images/scene_04l.jpg",
   "music": "assets/audio/stealth.mp3",
   "text": [
     "Tu appelles doucement. Silence. Tu appelles encore, un peu plus fort cette fois.",

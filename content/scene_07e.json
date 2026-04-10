@@ -7,7 +7,7 @@
   "character": "Kael",
   "mood": "cold",
   "styles": "assets/css/moods/cold_style.css",
-  "image": "",
+  "image": "assets/images/scene_07e.jpg",
   "music": "assets/audio/cold.mp3",
   "text": [
     "Mira baisse les yeux et avoue qu'elle avait promis à Daren de ne rien révéler tant que tu n'aurais pas toi-même survécu à la première nuit.",

@@ -7,7 +7,7 @@
   "character": "Kael",
   "mood": "destiny",
   "styles": "assets/css/moods/destiny_style.css",
-  "image": "",
+  "image": "assets/images/scene_04t.jpg",
   "music": "assets/audio/destiny.mp3",
   "text": [
     "Tu sors la carte et les feuillets sous le bras, la forge qui s'effondre dans ton dos.",

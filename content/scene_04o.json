@@ -7,7 +7,7 @@
   "character": "Kael",
   "mood": "tension",
   "styles": "assets/css/moods/tension_style.css",
-  "image": "",
+  "image": "assets/images/scene_04o.jpg",
   "music": "assets/audio/tension.mp3",
   "text": [
     "Tu ramasses un pavé et le lances contre le volet d'une fenêtre à l'étage. Le bruit claque dans la ruelle.",

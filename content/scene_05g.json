@@ -7,7 +7,7 @@
   "character": "Kael",
   "mood": "stealth",
   "styles": "assets/css/moods/stealth_style.css",
-  "image": "",
+  "image": "assets/images/scene_05g.jpg",
   "music": "assets/audio/stealth.mp3",
   "text": [
     "Tu te faufiles entre les arbres jusqu'à la cage de métal. Les encapuchonnés sont absorbés par leur rituel — dos tournés.",

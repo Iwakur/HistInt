@@ -7,7 +7,7 @@
   "character": "Kael",
   "mood": "tension",
   "styles": "assets/css/moods/tension_style.css",
-  "image": "",
+  "image": "assets/images/scene_05j.jpg",
   "music": "assets/audio/tension.mp3",
   "text": [
     "Tu cours derrière l'encapuchonné dans les ruelles en feu. Il est rapide mais il trébuche sur un seuil effondré — juste assez pour que tu l'attrapes par le capuchon.",
